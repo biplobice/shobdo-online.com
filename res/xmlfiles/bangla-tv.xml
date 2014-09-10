@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<multipostxml>
+
+  <singlepost>
+    <mediaTitle>BTV</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/btv.jpg</thumbUrl>
+  </singlepost>
+  
+  
+  <singlepost>
+    <mediaTitle>ATN Bangla</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/atn_bangla.jpg</thumbUrl>
+  </singlepost>
+  
+    
+  <singlepost>
+    <mediaTitle>Bangla Vision</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/bangla_vision.jpg</thumbUrl>
+  </singlepost>
+  
+      
+  <singlepost>
+    <mediaTitle>Boishakhi TV</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/boishakhi_tv.jpg</thumbUrl>
+  </singlepost>
+  
+        
+  <singlepost>
+    <mediaTitle>Channel I</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/channel_i.jpg</thumbUrl>
+  </singlepost>
+  
+          
+  <singlepost>
+    <mediaTitle>Channel9</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/channel9.jpg</thumbUrl>
+  </singlepost>
+  
+            
+  <singlepost>
+    <mediaTitle>Channel24</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/channel24.jpg</thumbUrl>
+  </singlepost>
+  
+              
+  <singlepost>
+    <mediaTitle>Desh TV</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/desh_tv.jpg</thumbUrl>
+  </singlepost>
+  
+                
+  <singlepost>
+    <mediaTitle>Diganta</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/diganta.jpg</thumbUrl>
+  </singlepost>
+  
+                  
+  <singlepost>
+    <mediaTitle>Ekattor</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/ekattor.jpg</thumbUrl>
+  </singlepost>
+  
+                    
+  <singlepost>
+    <mediaTitle>Ekushe</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/ekushe.jpg</thumbUrl>
+  </singlepost>
+  
+                      
+  <singlepost>
+    <mediaTitle>Gazi TV</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/gazi_tv.jpg</thumbUrl>
+  </singlepost>
+  
+                        
+  <singlepost>
+    <mediaTitle>Massranga</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/massranga.jpg</thumbUrl>
+  </singlepost>
+  
+                          
+  <singlepost>
+    <mediaTitle>Mohona TV</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/mohona_tv.jpg</thumbUrl>
+  </singlepost>
+  
+                            
+  <singlepost>
+    <mediaTitle>N TV</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/n_tv.jpg</thumbUrl>
+  </singlepost>
+  
+    <singlepost>
+    <mediaTitle>R TV</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/r_tv.jpg</thumbUrl>
+  </singlepost>
+  
+    
+    <singlepost>
+    <mediaTitle>Shomoy TV</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/shomoy_tv.jpg</thumbUrl>
+  </singlepost>
+  
+      
+    <singlepost>
+    <mediaTitle>MY TV</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/my_tv.jpg</thumbUrl>
+  </singlepost>
+  
+        
+    <singlepost>
+    <mediaTitle>SA TV</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/sa_tv.jpg</thumbUrl>
+  </singlepost>
+  
+          
+    <singlepost>
+    <mediaTitle>NTVUK</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/ntvuk.jpg</thumbUrl>
+  </singlepost>
+  
+            
+    <singlepost>
+    <mediaTitle>Channel Europe</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/channel_europe.jpg</thumbUrl>
+  </singlepost>
+  
+              
+    <singlepost>
+    <mediaTitle>Channel9 UK</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/channel9_uk.jpg</thumbUrl>
+  </singlepost>
+  
+                
+    <singlepost>
+    <mediaTitle>Channel16</mediaTitle>
+    <mediaUrl>tvUrl</mediaUrl>
+	<thumbUrl>res/images/live-tv/channel16.jpg</thumbUrl>
+  </singlepost>
+
+
+
+
+</multipostxml>

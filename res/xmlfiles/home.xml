@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<multipostxml>
+  <singlepost>
+    <mediaTitle>Title 1 !</mediaTitle>
+    <mediaUrl>Game publisher</mediaUrl>
+    <mediaSource>Game publisher</mediaSource>
+    <thumbUrl>Game publisher</thumbUrl>
+    <shortDescription></shortDescription>
+  </singlepost>
+  <singlepost>
+    <mediaTitle>Title 2 !</mediaTitle>
+    <mediaUrl>http://www.dhakacourier.com.bd/?p=11655</mediaUrl>
+    <mediaSource>400px</mediaSource>
+    <thumbUrl>res/images/image1.bmp</thumbUrl>
+    <shortDescription>200px</shortDescription>
+  </singlepost>
+  <singlepost>
+    <mediaTitle>Title 3 !</mediaTitle>
+    <mediaUrl>http://www.dhakacourier.com.bd/?p=11655</mediaUrl>
+    <mediaSource>400px</mediaSource>
+    <thumbUrl>res/images/image1.bmp</thumbUrl>
+    <shortDescription>200px</shortDescription>
+  </singlepost>
+  <singlepost>
+    <mediaTitle>Title 4 !</mediaTitle>
+    <mediaUrl>http://www.dhakacourier.com.bd/?p=11655</mediaUrl>
+    <mediaSource>400px</mediaSource>
+    <thumbUrl>res/images/image1.bmp</thumbUrl>
+    <shortDescription>200px</shortDescription>
+  </singlepost>
+  <singlepost>
+    <mediaTitle>Title 5 !</mediaTitle>
+    <mediaUrl>http://www.dhakacourier.com.bd/?p=11655</mediaUrl>
+    <mediaSource>400px</mediaSource>
+    <thumbUrl>res/images/image1.bmp</thumbUrl>
+    <shortDescription>200px</shortDescription>
+  </singlepost>
+  <singlepost>
+    <mediaTitle>Title 6 !</mediaTitle>
+    <mediaUrl/>
+    <mediaSource/>
+    <thumbUrl>res/images/home/Smiley-Bangladesh_1.4.png</thumbUrl>
+    <shortDescription/>
+  </singlepost>
+  <singlepost>
+    <mediaTitle>Title 7!</mediaTitle>
+    <mediaUrl/>
+    <mediaSource/>
+    <thumbUrl>res/images/home/Smiley-Bangladesh_1.1.png</thumbUrl>
+    <shortDescription/>
+  </singlepost>
+  <singlepost>
+    <mediaTitle>Item 8!</mediaTitle>
+    <mediaUrl>afsafa</mediaUrl>
+    <mediaSource>asfasfaf</mediaSource>
+    <thumbUrl>res/images/home/Smiley-Bangladesh_1.png</thumbUrl>
+    <shortDescription></shortDescription>
+  </singlepost>
+</multipostxml>

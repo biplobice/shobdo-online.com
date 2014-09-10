@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* Gallery Css */
+.thumb {
+	margin-bottom: 30px;
+}
+.thumb img {
+	max-height: 200px;
+}
+.hidden {
+	display: none;
+}
+
+#ytVideoGallery .thumbnail > img {
+	width: 100%;
+}
+.play {
+	position: absolute;
+	top: 10px;
+	left: 25px;
+	font-size: 2em;
+	border: 2px solid;
+	border-radius: 25px;
+	width: 50px;
+	height: 50px;
+}
+.play:before {
+	font-family: 'Glyphicons Halflings';
+	content: "\e072";
+	line-height: 1.6em;
+	margin-left: 12px;
+}
+
+/* Navigation Bar CSS */
+.navbar-default {
+	background: transparent;
+	border: transparent;
+}
+.navbar > .container {
+	background-image: -webkit-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+	background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+	background-repeat: no-repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54b4eb', endColorstr='#ff1d9ce5', GradientType=0);
+	border-bottom: 1px solid #178acc;
+	filter: none;
+	-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+	box-shadow:1px 0px 5px #000;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, .navbar .time a {
+	color: #FFFFFF;
+}
+.navbar .time {
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+/* Shobdo-Online CSS */
+body {
+	background: url(../img/bg.jpg) no-repeat #fff center top;
+}
+#wrapper {
+	background: url(../img/bg_pattern.png);
+	box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+}
+#footer {
+	background: transparent url(../img/footer_bg.jpg) top left repeat-x;
+	height: 60px;
+	margin: 0 -15px;
+}
+#footer p {
+	padding-top: 20px;
+}

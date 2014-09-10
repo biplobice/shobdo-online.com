@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<multipostxml>
+<!--  <singlepost>
+    <mediaTitle>Atn Radio</mediaTitle>
+    <mediaUrl>Media Url</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/atn-radio.jpg</thumbUrl>
+  </singlepost>
+-->
+  <singlepost>
+    <mediaTitle>Abc Radio</mediaTitle>
+    <mediaUrl>http://live.abcradiobd.fm:8282/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-abc.jpg</thumbUrl>
+  </singlepost>
+
+  <singlepost>
+    <mediaTitle>Radio Amar</mediaTitle>
+    <mediaUrl>http://184.173.203.244:8013/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-amar.jpg</thumbUrl>
+  </singlepost>
+
+  
+  <singlepost>
+    <mediaTitle>Bangla Radio24</mediaTitle>
+    <mediaUrl>http://live.banglaradio24.com:8237/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/bangla-radio24.jpg</thumbUrl>
+  </singlepost>
+  
+    
+  <singlepost>
+    <mediaTitle>Dhaka Fm</mediaTitle>
+    <mediaUrl>http://118.179.219.244:8000/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/dhaka-fm.jpg</thumbUrl>
+  </singlepost>
+  
+  
+  <singlepost>
+    <mediaTitle>Peoples Radio</mediaTitle>
+    <mediaUrl>http://live.peoplesradio.fm:9160/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/peoples-radio.jpg</thumbUrl>
+  </singlepost>
+  
+    
+  <singlepost>
+    <mediaTitle>Radio 2fun</mediaTitle>
+    <mediaUrl>http://67.228.101.162:7600/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-2fun.jpg</thumbUrl>
+  </singlepost>
+  
+<!--   
+  <singlepost>
+    <mediaTitle>Radio Bhumi</mediaTitle>
+    <mediaUrl>Media Url</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-bhumi.jpg</thumbUrl>
+  </singlepost>
+ --> 
+
+  <singlepost>
+    <mediaTitle>Radio Bijoy</mediaTitle>
+    <mediaUrl>http://live.peoplesradio.fm:9160/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-bijoy.jpg</thumbUrl>
+  </singlepost>
+  
+<!-- 
+  <singlepost>
+    <mediaTitle>Radio Dj</mediaTitle>
+    <mediaUrl>Media Url</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-Dj.jpg</thumbUrl>
+  </singlepost>
+  -->
+    
+  <singlepost>
+    <mediaTitle>Radio Dream24</mediaTitle>
+    <mediaUrl>http://5.63.151.52:8049/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-dream24.jpg</thumbUrl>
+  </singlepost>
+  
+<!--    
+  <singlepost>
+    <mediaTitle>Radio Jhalmuri</mediaTitle>
+    <mediaUrl>Media Url</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-jhalmuri.jpg</thumbUrl>
+  </singlepost>
+  
+
+   
+  <singlepost>
+    <mediaTitle>Radio Tolpar</mediaTitle>
+    <mediaUrl>Media Url</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-tolpar.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Radio Utsob</mediaTitle>
+    <mediaUrl>Media Url</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-utsob.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Sangeet Radio</mediaTitle>
+    <mediaUrl>Media Url</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/sangeet-radio.jpg</thumbUrl>
+  </singlepost>
+  -->
+  
+<!--  
+  <singlepost>
+    <mediaTitle>Radio Funbuzz</mediaTitle>
+    <mediaUrl>http://184.75.220.85:8080/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-funbuzz.jpg</thumbUrl>
+  </singlepost>
+  --> 
+  
+    
+  <singlepost>
+    <mediaTitle>Ajob Radio</mediaTitle>
+    <mediaUrl>http://192.95.33.174:3478/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/ajob-radio.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Radio Aktara</mediaTitle>
+    <mediaUrl>http://50.7.98.106:8520/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-aktara.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Allahu Akbar Radio</mediaTitle>
+    <mediaUrl>http://66.45.232.132:9996/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/allahu-akbar.jpg</thumbUrl>
+  </singlepost>
+  
+<!--     
+  <singlepost>
+    <mediaTitle>Asmerr Radio</mediaTitle>
+    <mediaUrl>http://78.129.190.50:38041/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/asmerr-radio.jpg</thumbUrl>
+  </singlepost>
+-->   
+   
+  <singlepost>
+    <mediaTitle>Bangla Al Quran</mediaTitle>
+    <mediaUrl>http://206.190.131.100:9932/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/bangla-al-quran.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Bangla Wadio</mediaTitle>
+    <mediaUrl>http://184.172.165.195:8201/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/bangla-wadio.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Bangladesh Betar</mediaTitle>
+    <mediaUrl>http://174.138.174.210:8002/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/bangladesh-betar.jpg</thumbUrl>
+  </singlepost>
+  
+    
+  <singlepost>
+    <mediaTitle>Bangladesh Online</mediaTitle>
+    <mediaUrl>http://67.228.101.162:7800/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/bangladesh-online.jpg</thumbUrl>
+  </singlepost>
+  
+<!--
+  <singlepost>
+    <mediaTitle>BBC Bangla Radio</mediaTitle>
+    <mediaUrl>Media Url</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/bbc-bangla-radio.jpg</thumbUrl>
+  </singlepost>
+-->  
+  
+  <singlepost>
+    <mediaTitle>Bd Chat Radio</mediaTitle>
+    <mediaUrl>http://67.228.101.162:7600/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/bd-chat.jpg</thumbUrl>
+  </singlepost>
+  
+      
+  <singlepost>
+    <mediaTitle>eBengali Radio</mediaTitle>
+    <mediaUrl>http://banglaradio.homeip.net:8000/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/ebengali-radio.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>eDoctor Radio</mediaTitle>
+    <mediaUrl>http://edoctorradio.com:8089/stream.mp3?type=.mp3/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/edoctor-radio.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>eTune24 Radio</mediaTitle>
+    <mediaUrl>http://184.107.144.218:8040/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/etune24-radio.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Health And Law Radio</mediaTitle>
+    <mediaUrl>http://184.173.203.244:8209/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/health-and-law-radio.jpg</thumbUrl>
+  </singlepost>
+  
+  
+  <singlepost>
+    <mediaTitle>HoiChoi Wadio</mediaTitle>
+    <mediaUrl>http://184.173.203.245:7019/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/hoichoi-wadio.jpg</thumbUrl>
+  </singlepost>
+  
+    
+  <singlepost>
+    <mediaTitle>Islamic Radio Bangla</mediaTitle>
+    <mediaUrl>http://184.154.90.186:8135/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/islamic-radio-bangla.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Jessore 24 Radio</mediaTitle>
+    <mediaUrl>http://radiogoongoon.com:8040/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/jessore24-radio.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Lemon24 Radio</mediaTitle>
+    <mediaUrl>http://office.mcc.com.bd:8000/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/lemon24-radio.jpg</thumbUrl>
+  </singlepost>
+  
+
+  <singlepost>
+    <mediaTitle>Love Bangla</mediaTitle>
+    <mediaUrl>http://184.173.203.245:8015/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/love-bangla.jpg</thumbUrl>
+  </singlepost>
+  
+  
+  <singlepost>
+    <mediaTitle>My Bangla Gaan Radio</mediaTitle>
+    <mediaUrl>http://69.175.103.230:8000/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/my-bangla-gaan-radio.jpg</thumbUrl>
+  </singlepost>
+  
+    
+  <singlepost>
+    <mediaTitle>My Bangla Radio</mediaTitle>
+    <mediaUrl>http://mybanglaradio.4pu.com:2012/stream?type=.mp3/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/my-bangla-radio.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Online Gaan</mediaTitle>
+    <mediaUrl>http://69.175.103.230:8000/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/online-gaan.jpg</thumbUrl>
+  </singlepost>
+  
+<!--    
+  <singlepost>
+    <mediaTitle>Radio Onubhuti</mediaTitle>
+    <mediaUrl>http://184.173.203.246:8205/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-onubhuti.jpg</thumbUrl>
+  </singlepost>
+-->   
+ 
+  <singlepost>
+    <mediaTitle>Quran er Alo</mediaTitle>
+    <mediaUrl>http://66.45.232.131:9994/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/quran-er-alo.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Radio Aajkal</mediaTitle>
+    <mediaUrl>http://46.105.30.7:80/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-aajkal.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Radio Adda</mediaTitle>
+    <mediaUrl>http://70.39.68.226:8194/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-adda.jpg</thumbUrl>
+  </singlepost>
+  
+
+  <singlepost>
+    <mediaTitle>Radio Aha</mediaTitle>
+    <mediaUrl>http://198.178.123.20:7220/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-aha.jpg</thumbUrl>
+  </singlepost>
+  
+  
+  <singlepost>
+    <mediaTitle>Radio Aic</mediaTitle>
+    <mediaUrl>http://83.170.109.107:8004/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-aic.jpg</thumbUrl>
+  </singlepost>
+  
+<!--    
+  <singlepost>
+    <mediaTitle>Radio Amader</mediaTitle>
+    <mediaUrl>Media Url</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-amader.jpg</thumbUrl>
+  </singlepost>
+ --> 
+  
+  <singlepost>
+    <mediaTitle>Radio Apon</mediaTitle>
+    <mediaUrl>http://118.179.219.244:8000/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-apon.jpg</thumbUrl>
+  </singlepost>
+  
+    
+  <singlepost>
+    <mediaTitle>Radio BD24</mediaTitle>
+    <mediaUrl>http://s2.voscast.com:8018/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-bd24.jpg</thumbUrl>
+  </singlepost>
+  
+<!--     
+  <singlepost>
+    <mediaTitle>Radio Bestway</mediaTitle>
+    <mediaUrl>http://69.65.38.56:9982/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-bestway.jpg</thumbUrl>
+  </singlepost>
+
+ --> 
+ 
+    <singlepost>
+        <mediaTitle>Radio Circle</mediaTitle>
+        <mediaUrl>http://184.173.203.244:8019/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-circle.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Radio Dhaka</mediaTitle>
+        <mediaUrl>http://118.179.219.243:8000/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-dhaka.jpg</thumbUrl>
+    </singlepost>
+
+   
+  <singlepost>
+    <mediaTitle>Radio Dontmind</mediaTitle>
+    <mediaUrl>http://182.16.158.25:8000/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-dontmind.jpg</thumbUrl>
+  </singlepost>
+  
+<!--     
+  <singlepost>
+    <mediaTitle>Radio Doorbin</mediaTitle>
+    <mediaUrl>http://108.178.13.122:8128/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-doorbin.jpg</thumbUrl>
+  </singlepost>
+
+ -->     
+    <singlepost>
+        <mediaTitle>Radio Dream 24</mediaTitle>
+        <mediaUrl>http://99.198.118.250:8060/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-dream24.jpg</thumbUrl>
+    </singlepost>
+    
+<!--    
+  <singlepost>
+    <mediaTitle>Radio Dreamz</mediaTitle>
+    <mediaUrl>http://s5.voscast.com:8320/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-dreamz.jpg</thumbUrl>
+  </singlepost>
+  
+ -->
+ 
+<!--  
+  <singlepost>
+    <mediaTitle>Radio Durbar</mediaTitle>
+    <mediaUrl>http://69.65.43.94:9988/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-durbar.jpg</thumbUrl>
+  </singlepost>
+ --> 
+
+    <singlepost>
+        <mediaTitle>Radio Foorti</mediaTitle>
+        <mediaUrl>http://114.130.45.114:1021/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-foorti.jpg</thumbUrl>
+    </singlepost>
+   
+   
+  <singlepost>
+    <mediaTitle>Radio Foring</mediaTitle>
+    <mediaUrl>http://69.65.43.94:9998/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-foring.jpg</thumbUrl>
+  </singlepost>
+  
+<!--     
+  <singlepost>
+    <mediaTitle>Radio Funbuzz</mediaTitle>
+    <mediaUrl>http://184.75.220.85:8080/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-funbuzz.jpg</thumbUrl>
+  </singlepost>
+ -->   
+   
+  <singlepost>
+    <mediaTitle>Radio Gaanwala</mediaTitle>
+    <mediaUrl>http://99.198.118.250:8060/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-gaanwala.jpg</thumbUrl>
+  </singlepost>
+
+
+    <singlepost>
+        <mediaTitle>Radio Goongoon</mediaTitle>
+        <mediaUrl>http://radiogoongoon.com:8040/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-goongoon.jpg</thumbUrl>
+    </singlepost>
+
+   
+  <singlepost>
+    <mediaTitle>Radio Kolahol</mediaTitle>
+    <mediaUrl>http://83.170.109.107:8004/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-kolahol.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Radio Kotha</mediaTitle>
+    <mediaUrl>http://67.213.213.137:8014/live?type=.mp3/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-kotha.jpg</thumbUrl>
+  </singlepost>
+
+
+    <singlepost>
+        <mediaTitle>Radio Mainamati</mediaTitle>
+        <mediaUrl>http://184.172.165.195:7011/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-mainamati.jpg</thumbUrl>
+    </singlepost>
+
+   
+  <singlepost>
+    <mediaTitle>Radio Melody BD</mediaTitle>
+    <mediaUrl>http://69.175.94.98:8022/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-melody-bd.jpg</thumbUrl>
+  </singlepost>
+  
+    
+  <singlepost>
+    <mediaTitle>Radio Nri</mediaTitle>
+    <mediaUrl>http://radiogoongoon.com:8040/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-nri.jpg</thumbUrl>
+  </singlepost>
+  
+<!--     
+  <singlepost>
+    <mediaTitle>Radio Oniyom</mediaTitle>
+    <mediaUrl>http://50.115.124.196:13782/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-oniyom.jpg</thumbUrl>
+  </singlepost>
+ -->   
+   
+  <singlepost>
+    <mediaTitle>Radio Rong</mediaTitle>
+    <mediaUrl>http://184.173.203.245:7019/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-rong.jpg</thumbUrl>
+  </singlepost>
+
+    
+    <singlepost>
+        <mediaTitle>Radio Shadhin</mediaTitle>
+        <mediaUrl>http://184.107.144.218:8240/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-shadhin.jpg</thumbUrl>
+    </singlepost>
+    
+    <singlepost>
+        <mediaTitle>Radio Shadhin Desh</mediaTitle>
+        <mediaUrl>http://184.107.144.218:8240/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-shadhin-desh.jpg</thumbUrl>
+    </singlepost>
+    
+<!--
+    <singlepost>
+        <mediaTitle>Radio Shongi</mediaTitle>
+        <mediaUrl>Media Url</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-shongi.jpg</thumbUrl>
+    </singlepost>
+-->    
+    
+    <singlepost>
+        <mediaTitle>Radio Smj</mediaTitle>
+        <mediaUrl>http://184.172.165.195:7001/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-smj.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Radio Swadesh</mediaTitle>
+        <mediaUrl>http://radioswadesh.com:8002/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-swadesh.jpg</thumbUrl>
+    </singlepost>
+    
+   
+  <singlepost>
+    <mediaTitle>Radio Swadhinota</mediaTitle>
+    <mediaUrl>http://174.138.174.214:9960/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-swadhinota.jpg</thumbUrl>
+  </singlepost>
+  
+<!--      
+  <singlepost>
+    <mediaTitle>Radio Techvision</mediaTitle>
+    <mediaUrl>http://184.75.220.85:8080/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-techvision.jpg</thumbUrl>
+  </singlepost>
+
+--> 
+    
+    <singlepost>
+        <mediaTitle>Radio Today</mediaTitle>
+        <mediaUrl>http://118.179.219.244:8000/;stream.mp3</mediaUrl>
+        <thumbUrl>res/images/bangla-radio/radio-today.jpg</thumbUrl>
+    </singlepost>
+    
+    
+  <singlepost>
+    <mediaTitle>Radio Twist</mediaTitle>
+    <mediaUrl>http://70.39.68.226:8004/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-twist.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Radio Twist 24</mediaTitle>
+    <mediaUrl>http://184.172.165.195:7029/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-twist24.jpg</thumbUrl>
+  </singlepost>
+  
+<!--       
+  <singlepost>
+    <mediaTitle>Radio Ullash</mediaTitle>
+    <mediaUrl>http://91.121.34.164:11906/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-ullash.jpg</thumbUrl>
+  </singlepost>
+  
+--> 
+   
+  <singlepost>
+    <mediaTitle>Radio Uttal</mediaTitle>
+    <mediaUrl>http://174.138.174.214:9950/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-uttal.jpg</thumbUrl>
+  </singlepost>
+  
+  
+  <singlepost>
+    <mediaTitle>Radio Voice 24</mediaTitle>
+    <mediaUrl>http://184.173.203.244:7015/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/radio-voice-24.jpg</thumbUrl>
+  </singlepost>
+  
+    
+  <singlepost>
+    <mediaTitle>Radio Shurjo Bangla</mediaTitle>
+    <mediaUrl>http://174.138.174.210:8002/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/shurjo-bangla-radio.jpg</thumbUrl>
+  </singlepost>
+  
+   
+  <singlepost>
+    <mediaTitle>Taranga Radio</mediaTitle>
+    <mediaUrl>http://67.228.150.175:8295/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/taranga-radio.jpg</thumbUrl>
+  </singlepost>
+  
+<!--
+  <singlepost>
+    <mediaTitle>Voice Of America Radio</mediaTitle>
+    <mediaUrl>Media Url</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/voice-of-america-radio.jpg</thumbUrl>
+  </singlepost>
+-->  
+   
+  <singlepost>
+    <mediaTitle>Washington Bangla...</mediaTitle>
+    <mediaUrl>http://banglaradio.homeip.net:8000/;stream.mp3</mediaUrl>
+	<thumbUrl>res/images/bangla-radio/washington-bangla-radio.jpg</thumbUrl>
+  </singlepost>
+
+ 
+
+</multipostxml>

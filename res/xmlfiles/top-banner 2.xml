@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<multipostxml> 
+    
+    <singlepost>
+        <mediaTitle>Slider_Title_Goes_Here</mediaTitle>
+        <mediaUrl></mediaUrl>
+        <thumbUrl>res/images/top-banner/banner1.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Slider_Title_Goes_Here</mediaTitle>
+        <mediaUrl>http://#</mediaUrl>
+        <thumbUrl>res/images/top-banner/banner2.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Slider_Title_Goes_Here</mediaTitle>
+        <mediaUrl></mediaUrl>
+        <thumbUrl>res/images/top-banner/banner3.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Slider_Title_Goes_Here</mediaTitle>
+        <mediaUrl></mediaUrl>
+        <thumbUrl>res/images/top-banner/banner4.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Slider_Title_Goes_Here</mediaTitle>
+        <mediaUrl></mediaUrl>
+        <thumbUrl>res/images/top-banner/banner5.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Slider_Title_Goes_Here</mediaTitle>
+        <mediaUrl></mediaUrl>
+        <thumbUrl>res/images/top-banner/banner6.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Slider_Title_Goes_Here</mediaTitle>
+        <mediaUrl></mediaUrl>
+        <thumbUrl>res/images/top-banner/banner7.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Slider_Title_Goes_Here</mediaTitle>
+        <mediaUrl></mediaUrl>
+        <thumbUrl>res/images/top-banner/banner8.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Slider_Title_Goes_Here</mediaTitle>
+        <mediaUrl></mediaUrl>
+        <thumbUrl>res/images/top-banner/banner9.jpg</thumbUrl>
+    </singlepost>
+    
+    
+    <singlepost>
+        <mediaTitle>Slider_Title_Goes_Here</mediaTitle>
+        <mediaUrl></mediaUrl>
+        <thumbUrl>res/images/top-banner/banner10.jpg</thumbUrl>
+    </singlepost>
+    
+</multipostxml>

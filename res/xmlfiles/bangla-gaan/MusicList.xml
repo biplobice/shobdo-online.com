@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<gallery>
+
+	<category name="Album Name">
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song_Title<br><font color="#666666">Artist_Name  |  Album "Album_Name"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song_Title<br><font color="#666666">Artist_Name  |  Album "Album_Name"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song_Title<br><font color="#666666">Artist_Name  |  Album "Album_Name"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song_Title<br><font color="#666666">Artist_Name  |  Album "Album_Name"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song_Title<br><font color="#666666">Artist_Name  |  Album "Album_Name"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song_Title<br><font color="#666666">Artist_Name  |  Album "Album_Name"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song_Title<br><font color="#666666">Artist_Name  |  Album "Album_Name"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song_Title<br><font color="#666666">Artist_Name  |  Album "Album_Name"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song_Title<br><font color="#666666">Artist_Name  |  Album "Album_Name"</font>]]></item>
+	</category>
+	
+</gallery>

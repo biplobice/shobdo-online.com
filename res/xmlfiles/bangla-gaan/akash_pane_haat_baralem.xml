@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<gallery>
+
+	<category name="Album Name">
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song Title Goes Here<br><font color="#666666">Artist Name  |  Album "Album Name Goes Here"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song Title Goes Here<br><font color="#666666">Artist Name  |  Album "Album Name Goes Here"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song Title Goes Here<br><font color="#666666">Artist Name  |  Album "Album Name Goes Here"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song Title Goes Here<br><font color="#666666">Artist Name  |  Album "Album Name Goes Here"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song Title Goes Here<br><font color="#666666">Artist Name  |  Album "Album Name Goes Here"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song Title Goes Here<br><font color="#666666">Artist Name  |  Album "Album Name Goes Here"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song Title Goes Here<br><font color="#666666">Artist Name  |  Album "Album Name Goes Here"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song Title Goes Here<br><font color="#666666">Artist Name  |  Album "Album Name Goes Here"</font>]]></item>
+	    <item thumbPath="thumbs/image2.jpg" mp3Path="music/song2.mp3"><![CDATA[Song Title Goes Here<br><font color="#666666">Artist Name  |  Album "Album Name Goes Here"</font>]]></item>
+	</category>
+	
+</gallery>
