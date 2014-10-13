@@ -4,10 +4,10 @@
     <mediaTitle>Iftar Mahfil 2</mediaTitle>
     <mediaUrl>http://shobdo-online.com/res/images/home-news/S__7110658.jpg</mediaUrl>
     <mediaSource>Media Source</mediaSource>
-    <thumbUrl>res/images/home-news/Boishakhi-Mela.jpg</thumbUrl>
+    <thumbUrl>res/images/home-news/unnamed.jpg</thumbUrl>
 	<thumbWidth>576</thumbWidth>
 	<thumbHeight>228</thumbHeight>
-    <shortDescription/>
+    <shortDescription></shortDescription>
   </singlepost>
   <singlepost>
     <mediaTitle/>
@@ -29,9 +29,9 @@
   </singlepost>
   <singlepost>
     <mediaTitle/>
-    <mediaUrl>http://shobdo-online.com/res/images/home-news/news-5_main.jpg</mediaUrl>
+    <mediaUrl>http://munshigonj.com/</mediaUrl>
     <mediaSource>Media Source</mediaSource>
-    <thumbUrl>res/images/home-news/news-5.jpg</thumbUrl>
+    <thumbUrl>res/images/home-news/logo-munshigonj-150x135.gif</thumbUrl>
 	<thumbWidth>286</thumbWidth>
 	<thumbHeight>170</thumbHeight>
     <shortDescription/>
@@ -82,12 +82,12 @@
     <shortDescription/>
   </singlepost>
   <singlepost>
-    <mediaTitle>sggdsgdsg</mediaTitle>
-    <mediaUrl>http://shobdo-online.com/res/uploads/icon-144.png</mediaUrl>
+    <mediaTitle/>
+    <mediaUrl>http://#</mediaUrl>
     <mediaSource>Media Source</mediaSource>
-    <thumbUrl>res/images/home-news/screen3.png</thumbUrl>
+    <thumbUrl>res/images/home-news/news-12.jpg</thumbUrl>
 	<thumbWidth>576</thumbWidth>
 	<thumbHeight>144</thumbHeight>
-    <shortDescription></shortDescription>
+    <shortDescription/>
   </singlepost>
 </multipostxml>

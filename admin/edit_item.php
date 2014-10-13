@@ -1,7 +1,7 @@
 <?php
 include('header.php');
 $xml = $_GET['xml'];
- $item = (int) $_GET['item'];
+$item = (int) $_GET['item'];
 $xml_data = simplexml_load_file($xml);
 ?>
 				<!-- Box -->

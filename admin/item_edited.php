@@ -7,8 +7,8 @@ session_start();
  $mediaSource=$_POST['mediaSource'];
  $thumbUrl=$_POST['thumbUrl'];
  $shortDescription=$_POST['shortDescription'];
- $thumbWidth=$_POST['thumbWidth'];
- $thumbHeight=$_POST['thumbHeight'];
+ $thumbWidth=(isset($_POST['thumbWidth']))? $_POST['thumbWidth']: '';
+ $thumbHeight=(isset($_POST['thumbHeight']))? $_POST['thumbHeight'] : '';
 
 
 if (isset($_FILES['image']) && !empty($_FILES['image']) && $_FILES['image']['size'] != 0) {
@@ -22,8 +22,8 @@ if (isset($_FILES['image']) && !empty($_FILES['image']) && $_FILES['image']['siz
 	if (!is_dir( "../res/images/".$_SESSION['file'])) {
 	mkdir("../res/images/".$_SESSION['file']);
 	} 
-	
 	resize($thumbWidth, $thumbHeight, $path);
+	
 		$thumbUrl = "res/images/".$_SESSION['file']."/".$_FILES['image']['name'];
 
 }
@@ -48,7 +48,7 @@ if (isset($_FILES['image']) && !empty($_FILES['image']) && $_FILES['image']['siz
 	} else {
 		$_SESSION['message'] = 'Data Updated successfully';  
 		print "<script>";
-		print "self.location='admin_panel.php?type=".basename($xml, ".xml")."';";
+		//print "self.location='admin_panel.php?type=".basename($xml, ".xml")."';";
 		print "</script>";
 	}
 ?>

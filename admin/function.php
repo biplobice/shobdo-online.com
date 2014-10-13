@@ -11,9 +11,13 @@
  * @param int $height
  */
 function resize($width, $height, $path){
-	echo $width.$height.$path;
 	/* Get original image x y*/
 	list($w, $h) = getimagesize($_FILES['image']['tmp_name']);
+	if(empty($width) && empty($height)){
+		$width = $w;
+		$height = $h;
+	}
+	
 	/* calculate new image size with ratio */
 	$ratio = max($width/$w, $height/$h);
 	$h = ceil($height / $ratio);
