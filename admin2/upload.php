@@ -73,4 +73,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		<input type="hidden" id="h" name="h" />       
     </form>
 </div>
+
+<div class="well">
+	<div class="row">
+	<?php
+		$files = glob("../res/uploads/*.*"); 
+		for ($i=1; $i<count($files); $i++) { 
+			$img_path = $files[$i];
+			echo "<div class='col-sm-3'><img class='img-responsive' src='$img_path'></div>";
+		 }
+	?>
+	</div> <!-- /.row -->    
+</div> <!-- /.well -->
 <?php require_once 'admin_footer.php' ?>
