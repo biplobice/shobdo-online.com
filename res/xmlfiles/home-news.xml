@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <multipostxml>
   <singlepost>
-    <mediaTitle>Iftar Mahfil 2</mediaTitle>
-    <mediaUrl>http://shobdo-online.com/res/images/home-news/S__7110658.jpg</mediaUrl>
+    <mediaTitle>Bosonto_Utshob</mediaTitle>
+    <mediaUrl>http://www.shaptahik.com/v2/?DetailsId=10061</mediaUrl>
     <mediaSource>Media Source</mediaSource>
-    <thumbUrl>res/images/home-news/unnamed.jpg</thumbUrl>
+    <thumbUrl>res/images/home-news/bosonto_utshob_main.jpg</thumbUrl>
 	<thumbWidth>576</thumbWidth>
 	<thumbHeight>228</thumbHeight>
     <shortDescription></shortDescription>
@@ -19,19 +19,19 @@
     <shortDescription/>
   </singlepost>
   <singlepost>
-    <mediaTitle/>
-    <mediaUrl>http://shobdo-online.com/res/images/home-news/Probash Projonmo_banner.jpg</mediaUrl>
+    <mediaTitle>Ronola</mediaTitle>
+    <mediaUrl>http://shobdo-online.com/res/uploads/RoNoLa2015.jpg</mediaUrl>
     <mediaSource>Media Source</mediaSource>
-    <thumbUrl>res/images/home-news/Probash Projonmo.jpg</thumbUrl>
+    <thumbUrl>res/images/home-news/RoNoLa2015.jpg</thumbUrl>
 	<thumbWidth>286</thumbWidth>
 	<thumbHeight>170</thumbHeight>
     <shortDescription/>
   </singlepost>
   <singlepost>
-    <mediaTitle/>
-    <mediaUrl>http://munshigonj.com/</mediaUrl>
+    <mediaTitle>Nepal Earthquake</mediaTitle>
+    <mediaUrl>http://shobdo-online.com/res/uploads/NepalEarthquake.jpg</mediaUrl>
     <mediaSource>Media Source</mediaSource>
-    <thumbUrl>res/images/home-news/logo-munshigonj-150x135.gif</thumbUrl>
+    <thumbUrl>res/images/home-news/NepalEarthquake.jpg</thumbUrl>
 	<thumbWidth>286</thumbWidth>
 	<thumbHeight>170</thumbHeight>
     <shortDescription/>

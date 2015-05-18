@@ -1,0 +1,102 @@
+[15-Jun-2014 13:22:33 America/Chicago] PHP Notice:  Undefined index: name in /home/sunaro/public_html/shobdo-online.com/admin/session_check.php on line 3
+[15-Jun-2014 13:22:43 America/Chicago] PHP Notice:  Undefined index: name in /home/sunaro/public_html/shobdo-online.com/admin/session_check.php on line 3
+[15-Jun-2014 13:23:08 America/Chicago] PHP Notice:  Undefined index: file in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 3
+[15-Jun-2014 13:23:08 America/Chicago] PHP Notice:  Undefined index: item in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 4
+[15-Jun-2014 13:23:08 America/Chicago] PHP Notice:  Undefined index: mediaTitle in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 5
+[15-Jun-2014 13:23:08 America/Chicago] PHP Notice:  Undefined index: mediaUrl in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 6
+[15-Jun-2014 13:23:08 America/Chicago] PHP Notice:  Undefined index: mediaSource in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 7
+[15-Jun-2014 13:23:08 America/Chicago] PHP Notice:  Undefined index: thumbUrl in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 8
+[15-Jun-2014 13:23:08 America/Chicago] PHP Notice:  Undefined index: shortDescription in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 9
+[15-Jun-2014 13:23:08 America/Chicago] PHP Warning:  SimpleXMLElement::__construct() [<a href='simplexmlelement.--construct'>simplexmlelement.--construct</a>]: I/O warning : failed to load external entity &quot;&quot; in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 36
+[15-Jun-2014 13:23:08 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php:36
+Stack trace:
+#0 /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php(36): SimpleXMLElement->__construct('', 0, true)
+#1 {main}
+  thrown in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 36
+[15-Jun-2014 13:23:29 America/Chicago] PHP Notice:  Undefined index: name in /home/sunaro/public_html/shobdo-online.com/admin/login_verify.php on line 3
+[05-Jul-2014 08:05:53 America/Chicago] PHP Notice:  Undefined index: file in /home/sunaro/public_html/shobdo-online.com/admin/add_item.php on line 15
+[07-Aug-2014 22:30:41 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/sunaro/public_html/shobdo-online.com/admin/logout.php on line 4
+[19-Aug-2014 07:29:05 America/Chicago] PHP Notice:  Undefined index: file in /home/sunaro/public_html/shobdo-online.com/admin/add_item.php on line 15
+[19-Aug-2014 07:42:41 America/Chicago] PHP Notice:  Undefined index: file in /home/sunaro/public_html/shobdo-online.com/admin/add_item.php on line 15
+[20-Aug-2014 01:16:26 America/Chicago] PHP Notice:  Undefined index: file in /home/sunaro/public_html/shobdo-online.com/admin/add_item.php on line 15
+[20-Aug-2014 01:38:41 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/sunaro/public_html/shobdo-online.com/admin/logout.php on line 4
+[20-Aug-2014 04:31:53 America/Chicago] PHP Notice:  Undefined index: file in /home/sunaro/public_html/shobdo-online.com/admin/add_item.php on line 15
+[20-Aug-2014 07:06:04 America/Chicago] PHP Notice:  Undefined index: name in /home/sunaro/public_html/shobdo-online.com/admin/session_check.php on line 3
+[20-Aug-2014 07:06:48 America/Chicago] PHP Warning:  require_once(function.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 13
+[20-Aug-2014 07:06:48 America/Chicago] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'function.php' (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 13
+[24-Aug-2014 22:41:00 America/Chicago] PHP Notice:  Undefined index: name in /home/sunaro/public_html/shobdo-online.com/admin/session_check.php on line 3
+[25-Aug-2014 06:29:43 America/Chicago] PHP Notice:  Undefined index: name in /home/sunaro/public_html/shobdo-online.com/admin/session_check.php on line 3
+[25-Aug-2014 22:03:10 America/Chicago] PHP Notice:  Undefined index: name in /home/sunaro/public_html/shobdo-online.com/admin/session_check.php on line 3
+[28-Aug-2014 22:23:28 America/Chicago] PHP Notice:  Undefined index: name in /home/sunaro/public_html/shobdo-online.com/admin/session_check.php on line 3
+[22-Sep-2014 07:32:54 America/Chicago] PHP Warning:  getimagesize() [<a href='function.getimagesize'>function.getimagesize</a>]: Filename cannot be empty in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 16
+[22-Sep-2014 07:32:55 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 18
+[22-Sep-2014 07:32:55 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 18
+[22-Sep-2014 07:32:55 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 19
+[22-Sep-2014 07:32:55 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 20
+[22-Sep-2014 07:32:55 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 21
+[22-Sep-2014 07:32:55 America/Chicago] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 25
+[22-Sep-2014 07:32:55 America/Chicago] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 27
+[22-Sep-2014 07:32:55 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 33
+[22-Sep-2014 07:33:28 America/Chicago] PHP Warning:  getimagesize() [<a href='function.getimagesize'>function.getimagesize</a>]: Filename cannot be empty in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 16
+[22-Sep-2014 07:33:28 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 18
+[22-Sep-2014 07:33:28 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 18
+[22-Sep-2014 07:33:28 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 19
+[22-Sep-2014 07:33:28 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 20
+[22-Sep-2014 07:33:28 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 21
+[22-Sep-2014 07:33:28 America/Chicago] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 25
+[22-Sep-2014 07:33:28 America/Chicago] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 27
+[22-Sep-2014 07:33:28 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 33
+[22-Sep-2014 07:33:46 America/Chicago] PHP Warning:  getimagesize() [<a href='function.getimagesize'>function.getimagesize</a>]: Filename cannot be empty in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 16
+[22-Sep-2014 07:33:46 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 18
+[22-Sep-2014 07:33:46 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 18
+[22-Sep-2014 07:33:46 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 19
+[22-Sep-2014 07:33:46 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 20
+[22-Sep-2014 07:33:46 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 21
+[22-Sep-2014 07:33:46 America/Chicago] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 25
+[22-Sep-2014 07:33:46 America/Chicago] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 27
+[22-Sep-2014 07:33:46 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 33
+[22-Sep-2014 07:34:16 America/Chicago] PHP Warning:  getimagesize() [<a href='function.getimagesize'>function.getimagesize</a>]: Filename cannot be empty in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 16
+[22-Sep-2014 07:34:16 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 18
+[22-Sep-2014 07:34:16 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 18
+[22-Sep-2014 07:34:16 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 19
+[22-Sep-2014 07:34:16 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 20
+[22-Sep-2014 07:34:16 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 21
+[22-Sep-2014 07:34:16 America/Chicago] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 25
+[22-Sep-2014 07:34:16 America/Chicago] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 27
+[22-Sep-2014 07:34:16 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 33
+[22-Sep-2014 07:34:38 America/Chicago] PHP Warning:  getimagesize() [<a href='function.getimagesize'>function.getimagesize</a>]: Filename cannot be empty in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 16
+[22-Sep-2014 07:34:38 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 18
+[22-Sep-2014 07:34:38 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 18
+[22-Sep-2014 07:34:38 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 19
+[22-Sep-2014 07:34:38 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 20
+[22-Sep-2014 07:34:38 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 21
+[22-Sep-2014 07:34:38 America/Chicago] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 25
+[22-Sep-2014 07:34:38 America/Chicago] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 27
+[22-Sep-2014 07:34:38 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 33
+[22-Sep-2014 07:43:06 America/Chicago] PHP Notice:  Undefined index: thumbWidth in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 10
+[22-Sep-2014 07:43:06 America/Chicago] PHP Notice:  Undefined index: thumbHeight in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 11
+[22-Sep-2014 07:43:06 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 19
+[22-Sep-2014 07:43:06 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 20
+[22-Sep-2014 07:43:06 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 21
+[22-Sep-2014 07:43:06 America/Chicago] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 28
+[22-Sep-2014 07:43:06 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 33
+[22-Sep-2014 07:43:06 America/Chicago] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 37
+[22-Sep-2014 07:43:06 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 52
+[22-Sep-2014 07:45:02 America/Chicago] PHP Notice:  Undefined index: thumbWidth in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 10
+[22-Sep-2014 07:45:02 America/Chicago] PHP Notice:  Undefined index: thumbHeight in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 11
+[22-Sep-2014 07:45:02 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 19
+[22-Sep-2014 07:45:02 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 20
+[22-Sep-2014 07:45:02 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 21
+[22-Sep-2014 07:45:02 America/Chicago] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 28
+[22-Sep-2014 07:45:02 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 33
+[22-Sep-2014 07:45:02 America/Chicago] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 37
+[22-Sep-2014 07:45:02 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 52
+[22-Sep-2014 07:50:46 America/Chicago] PHP Notice:  Undefined index: thumbWidth in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 10
+[22-Sep-2014 07:50:46 America/Chicago] PHP Notice:  Undefined index: thumbHeight in /home/sunaro/public_html/shobdo-online.com/admin/item_edited.php on line 11
+[22-Sep-2014 07:50:46 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 19
+[22-Sep-2014 07:50:46 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 20
+[22-Sep-2014 07:50:46 America/Chicago] PHP Warning:  Division by zero in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 21
+[22-Sep-2014 07:50:46 America/Chicago] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 28
+[22-Sep-2014 07:50:46 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 33
+[22-Sep-2014 07:50:46 America/Chicago] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 37
+[22-Sep-2014 07:50:46 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/sunaro/public_html/shobdo-online.com/admin/function.php on line 52

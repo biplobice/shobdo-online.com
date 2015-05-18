@@ -1,0 +1,1091 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>শব্দ ডট কম । বাংলা ওয়েব পোর্টাল</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="iecss.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/skin.css" />
+<link rel="stylesheet" type="text/css" href="css/tabbar.css" />
+<script type="text/javascript" src="js/boxOver.js"></script>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/easySlider1.7.js"></script>
+    <script type="text/javascript" src="js/ddaccordion.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="js/tytabs.jquery.min.js"></script>
+	<script type="text/javascript">
+	//Banner Slider
+		$(window).load(function(){	
+			$("#slider").show().easySlider({
+				auto: true, 
+				continuous: true,
+				numeric: true
+			});
+		});	
+	//Bannerad Slider
+		jQuery(document).ready(function() {
+			jQuery('#mycarousel').jcarousel({
+				vertical: true,
+				scroll: 2,
+				auto: 0,
+				wrap: 'circular',
+			});
+		});
+	//Tab Bar
+		$(document).ready(function(){
+			$("#tabsholder").tytabs({
+									tabinit:"1",
+									fadespeed:"fast"
+									});
+		});	
+	//For Target _Blank
+		$(document).ready(function(){
+		  $('#left_content a, #right_content a, #tabbar a').attr('target', '_blank');
+		});
+	//Back To Top
+	$(function() {
+		$(window).scroll(function() {
+			if($(this).scrollTop() != 0) {
+				$('#toTop').fadeIn();	
+			} else {
+				$('#toTop').fadeOut();
+			}
+		});
+	 
+		$('#toTop').click(function() {
+			$('body,html').animate({scrollTop:0},800);
+		});	
+	});
+	
+	//Expandable menu
+	ddaccordion.init({
+	headerclass: "submenuheader", //Shared CSS class name of headers group
+	contentclass: "submenu", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [1], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["suffix",/* "<img src='img/plus.gif' class='statusicon' />", "<img src='img/minus.gif' class='statusicon' />"*/], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+/*		for (var i=0; i<expandedindices.length; i++){
+		  var expandedindex=expandedindices[i] //index of current expanded header index within array
+		  headers[expandedindex].style.backgroundColor='black'
+		  headers[expandedindex].style.color='white'
+		  alert (expandedindex)
+		}*/
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+/*		 if (state=="block" && isuseractivated==false){ //if header is expanded as a result of the user clicking on it (versus expanded by default when page loads)
+		  header.style.backgroundColor="black" //change that header's background color to black
+		  header.style.color="white"
+		 }*/
+
+	}
+})
+	//Disable Time Link
+	$(document).ready(function() {
+	$('#time a').removeAttr('href');
+	});
+
+	</script>	
+<link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />	
+
+</head>
+<body>
+<div id="toTop">^ Back to Top</div>
+<div id="main_container">
+	<div class="top_bar">
+        <div class="topcontact">
+            <a href="#"><img src="img/phone.png" alt="" title="" border="0" align="left" /> 02-8419367</a>
+            <a href="#"><img src="img/mail.png" alt="" title="" border="0" align="left" /> info@smartmux.com</a>   
+        </div>    
+    
+<!--    	<div class="top_search">
+        	<div class="search_text"><a href="#">Advanced Search</a></div>
+            <input type="text" class="search_input" name="search" />
+            <input type="image" src="img/search.gif" class="search_bt"/>
+        </div>-->
+ 
+        <div id="time">
+            <script src="http://www.lazycoder.net/calendar/showdate.php?e=1&fc=000000&a=right&tsl=1"></script>
+        </div> 
+        
+<!--        <div class="languages">
+        	<div class="lang_text">Languages:</div>
+             <a href="#" class="lang"><img src="img/en.gif" alt="" title="" border="0" /></a>
+             <a href="#" class="lang"><img src="img/bd.gif" alt="" title="" border="0" /></a>       
+        </div>-->    
+    </div><!--End top_bar -->
+    
+	<div id="header">
+        
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" alt="" title="" border="0" width="220" height="140" /></a>
+	    </div>
+        
+        <div class="oferte_content">
+        	<div class="top_divider"><img src="img/header_divider.png" alt="" title="" width="1" height="164" /></div>
+        	<div class="oferta">
+                <div id="slider">           
+                 <ul>               	
+                    <li><img src="res/images/banner1.jpg"/> </li>
+                    <li><img src="res/images/banner2.jpg"/> </li>
+                    <li><img src="res/images/banner3.jpg"/> </li>
+                    <li><img src="res/images/banner4.jpg"/> </li>
+                    <li><img src="res/images/banner5.jpg"/> </li>
+                    <li><img src="res/images/banner6.jpg"/> </li>
+                    <li><img src="res/images/banner7.jpg"/> </li>
+                    <li><img src="res/images/banner8.jpg"/> </li>
+                    <li><img src="res/images/banner9.jpg"/> </li>
+                    <li><img src="res/images/banner10.jpg"/> </li>
+<!--                 
+				   <li>   
+                    <div class="oferta_content">
+                        <img src="img/laptop.png" width="94" height="92" border="0" class="oferta_img" />
+                        
+                        <div class="oferta_details">
+                                <div class="oferta_title">Samsung GX 2004 LM</div>
+                                <div class="oferta_text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                </div><!-- End oferta_text --
+                                <a href="details.html" class="details">details</a>
+                        </div><!--End oferta_details --
+                    </div> <!--End oferta_content--
+                   </li>
+                   <li>   
+                    <div class="oferta_content">
+                        <img src="img/laptop.png" width="94" height="92" border="0" class="oferta_img" />
+                        
+                        <div class="oferta_details">
+                                <div class="oferta_title">Samsung GX 2004 LM</div>
+                                <div class="oferta_text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                </div><!-- End oferta_text --
+                                <a href="details.html" class="details">details</a>
+                        </div><!--End oferta_details --
+                    </div> <!--End oferta_content--
+                   </li>
+                   <li>   
+                    <div class="oferta_content">
+                        <img src="img/laptop.png" width="94" height="92" border="0" class="oferta_img" />
+                        
+                        <div class="oferta_details">
+                                <div class="oferta_title">Samsung GX 2004 LM</div>
+                                <div class="oferta_text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                </div><!-- End oferta_text --
+                                <a href="details.html" class="details">details</a>
+                        </div><!--End oferta_details --
+                    </div> <!--End oferta_content--
+                   </li>                                                       
+                   -->
+                   
+                  </ul> 
+                </div><!--End Slider-->
+            </div><!--End oferta -->
+            <div class="top_divider"><img src="img/header_divider.png" alt="" title="" width="1" height="164" /></div>
+        	
+        </div> <!-- end of oferte_content-->
+        
+        <div class="bannerad">
+        	<ul id="mycarousel" class="jcarousel jcarousel-skin-tango">
+            	<li><img src="res/images/bannerad/Amar Bagha.png"/></li>
+                <li><img src="res/images/bannerad/Amar Cycle.png"/></li>
+                <li><img src="res/images/bannerad/Bangla Borno.png"/></li>
+            	<li><img src="res/images/bannerad/Bengali Animals.png"/></li>
+                <li><img src="res/images/bannerad/Bengali Birds.png"/></li>
+                <li><img src="res/images/bannerad/Bengali Fish.png"/></li>  
+            	<li><img src="res/images/bannerad/Bengali Flowers.png"/></li>
+                <li><img src="res/images/bannerad/Bengali Fruits.png"/></li>
+                <li><img src="res/images/bannerad/Bengali Vegetables.png"/></li>
+            	<li><img src="res/images/bannerad/Bhooter Chana.png"/></li>
+                <li><img src="res/images/bannerad/Borno Quizz.png"/></li>
+                <li><img src="res/images/bannerad/Chechaya Chele.png"/></li>  
+            	<li><img src="res/images/bannerad/Dilli Jatra.png"/></li>
+                <li><img src="res/images/bannerad/Honhon Jhikjhik.png"/></li>
+                <li><img src="res/images/bannerad/Ma O Chana.png"/></li>
+            	<li><img src="res/images/bannerad/Megher Deshe.png"/></li>
+                <li><img src="res/images/bannerad/Mojar Rong.png"/></li>
+                <li><img src="res/images/bannerad/Odvuture.png"/></li>  
+            	<li><img src="res/images/bannerad/Pagol.png"/></li>
+                <li><img src="res/images/bannerad/Palowan.png"/></li>
+                <li><img src="res/images/bannerad/Poshu O Pakhi.png"/></li>
+            	<li><img src="res/images/bannerad/Rini Khala.png"/></li>
+                <li><img src="res/images/bannerad/Rotno.png"/></li>
+                <li><img src="res/images/bannerad/Sajur Jadu.png"/></li>  
+            </ul>
+        </div><!--End of bannerad-->
+        
+
+    </div><!--End Header-->
+    
+   <div id="main_content"> 
+   
+            <!--<div id="menu_tab">
+            <div class="left_menu_corner"></div>
+                    <ul class="menu">
+                         <li><a href="index.html" class="nav1">  Home </a></li>
+                         <li class="divider"></li>
+                         <li><a href="#" class="nav2">Products</a></li>
+                         <li class="divider"></li>
+                         <li><a href="#" class="nav3">Specials</a></li>
+                         <li class="divider"></li>
+                         <li><a href="#" class="nav4">My account</a></li>
+                         <li class="divider"></li>
+                         <li><a href="#" class="nav4">Sign Up</a></li>
+                         <li class="divider"></li>                         
+                         <li><a href="#" class="nav5">Shipping </a></li>
+                         <li class="divider"></li>
+                         <li><a href="contact.html" class="nav6">Contact Us</a></li>
+                         <li class="divider"></li>
+                         <li class="currencies">Currencies
+                         <select>
+                         <option>US Dollar</option>
+                         <option>Euro</option>
+                         </select>
+                         </li>
+                    </ul>
+
+             <div class="right_menu_corner"></div>
+            </div><!-- end of menu tab -->
+            
+    <div class="crumb_navigation">
+    Navigation: <span class="current">Home</span>    
+    </div> <!--End crumb_navigation -->        
+   
+    
+   <div class="left_content" id="left_content">
+<!--    <div class="title_box">Japaneese Newspapers</div>
+    
+        <ul class="left_menu">
+        <li class="odd"><a href="services.html">Processors</a></li>
+        <li class="even"><a href="services.html">Motherboards</a></li>
+         <li class="odd"><a href="services.html">Desktops</a></li>
+        <li class="even"><a href="services.html">Laptops & Notebooks</a></li>
+         <li class="odd"><a href="services.html">Processors</a></li>
+         <li class="even"><a href="services.html">Motherboards</a></li>
+        <li class="odd"><a href="services.html">Processors</a></li>
+        <li class="even"><a href="services.html">Motherboards</a></li>
+         <li class="odd"><a href="services.html">Desktops</a></li>
+        <li class="even"><a href="services.html">Laptops & Notebooks</a></li>
+         <li class="odd"><a href="services.html">Processors</a></li>
+         <li class="even"><a href="services.html">Motherboards</a></li>
+        </ul>--> 
+        
+    <div class="title_box">প্রবাসী পত্রিকা</div>
+            
+        <ul id="menu" class="leftmenu">
+        <li><a href="http://www.bibekbarta.com"><img src="res/images/news/bibekbarta.jpg" /></a></li>
+        <li><a href="http://www.doshdik.com"><img src="res/images/news/doshdik.jpg" /></a></li>
+        <li><a href="http://www.porobas.com"><img src="res/images/news/porobas.jpg" /></a></li>        
+        <li><a href="http://www.probashaprotidin.com"><img src="res/images/news/probasha-protidin.jpg" /></a></li>
+        <li><a href="http://www.ukbdnews.com"><img src="res/images/news/ukbdnews.jpg" /></a></li>
+        <li><a href="http://www.manobcinta.com"><img src="res/images/news/manobcinta.jpg" /></a></li>
+        <li><a href="http://www.bnbnews.co"><img src="res/images/news/dailybnbnews.jpg" /></a></li>
+            <ul>
+                
+            </ul>
+        </li>
+        </ul>    
+        
+    <div class="title_box">International News Agency</div>
+            
+        <ul id="menu" class="leftmenu">
+        <li><a href="http://www.bbc.co.uk/bengali">BBC Bangla</a></li>
+        <li><a href="http://www.voanews.com/bangla">VOA News</a></li>
+        <li><a href="http://bangla.irib.ir">Tehran Bangla Radio</a></li>
+        <li><a href="http://www.dw-world.de/bengali">German Bangla Radio</a></li>
+        <li><a href="http://www3.nhk.or.jp/nhkworld/bengali/top/index.html">NHK World</a></li>
+        <li><a href="#">More...</a>
+            <ul>
+                <li> <a href="http://bengali.ruvr.ru">Radio Russia</a></li>
+                <li> <a href="http://bengali.cri.cn">China Radio</a></li>
+                <li> <a href="http://www.anandabazar.com">Ananda Bazar</a></li>
+                <li> <a href="http://www.aajkaal.net">Aajkaal</a></li>
+
+            </ul>
+        </li>
+        </ul>
+ 
+    <div class="title_box">News</div>
+            
+        <ul id="menu" class="leftmenu">
+        <li><a href="http://edition.cnn.com">CNN News</a></li>
+        <li><a href="http://www.bbc.com">BBC News</a></li>
+        <li><a href="http://www.aljazeera.com">Al Jazeera News</a></li>
+        <li><a href="http://www.foxnews.com">Fox News</a></li>
+        <li><a href="http://www.ctvnews.ca">CTV News</a></li>
+        <li><a href="#">More...</a>
+            <ul>
+                <li> <a href="http://www.krgv.com">KRGV News</a></li>
+                <li> <a href="http://www.wcvb.com">WCVB News</a></li>
+                <li> <a href="http://www.channelnewsasia.com/news">Channel NewsAsia</a></li>
+                <li> <a href="http://www.wjla.com">WJLA News</a></li>
+                <li> <a href="http://www.koco.com">KOCO News</a></li>
+                <li> <a href="http://www.wlwt.com">WLWT News</a></li>
+            </ul>
+        </li>
+        </ul>
+
+    <div class="title_box" style="z-index: 1; position:relative">ভিজিটর কাউন্টার</div>
+    <div  style="max-height: 72px; overflow:hidden; margin-top:-18px; margin-bottom:5px;">
+    <img src="http://s08.flagcounter.com/count/5qCk/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/" border="0" width="196">   
+    </div>  
+
+
+    <!--Foreign Exchange Rates widget - HTML code - fx-rate.net -->
+    <div class="title_box"><img src="img/bd.png" ></img> &nbsp; বাংলাদেশী মুদ্রার বিনিময় হার</div>
+    <div class="gadget"> 
+        <script type="text/javascript" src="http://fx-rate.net/fx-rates.php?label_type=country_name&currency=BDT&length=short"></script>
+    </div> 
+      
+    <!--Currency Converter widget - HTML code - fx-rate.net 
+    <div class="title_box"><img src="img/bd.png" ></img> &nbsp; বাংলাদেশী টাকা কনভার্টার</div>
+    <div  class="gadget">
+        <script type="text/javascript" src="http://fx-rate.net/converter.php?currency=BDT&size=medium"></script>
+    </div>-->
+ 
+    <!-- BEGIN: Powered by Ipaddress.is --
+
+    <script type="text/javascript" src="http://ipaddress.is/js/ipwidget.js"></script>
+    <script type="text/javascript">var ip_widget_var = ip_widget_var || [];ip_widget("#EEEEEE","#fcfcfc","#000000",0,0,173);</script>
+    <noscript><a href="http://ipaddress.is">ip whois</a></noscript>
+
+    <!-- END: Powered by Ipaddress.is --> 
+      
+<!--     <div class="title_box">Special Products</div>  
+     <div class="border_box">
+         <div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
+         <div class="product_img"><a href="details.html"><img src="img/laptop.png" alt="" title="" border="0" /></a></div>
+         <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>
+     </div>  
+     
+     
+     <div class="title_box">Newsletter</div>  
+     <div class="border_box">
+		<input type="text" name="newsletter" class="newsletter_input" value="your email"/>
+        <a href="#" class="join">join</a>
+     </div>  
+     
+     <div class="banner_adds">
+     
+     <a href="#"><img src="img/bann2.jpg" alt="" title="" border="0" /></a>
+     </div>   --> 
+        
+    
+   </div><!-- end of left content -->
+   
+   
+   <div class="center_content">
+<!--   	<div class="center_title_bar">Latest Products</div>
+    
+    	<div class="prod_box">
+        	<div class="top_prod_box"></div>
+            <div class="center_prod_box">            
+                 <div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
+                 <div class="product_img"><a href="details.html"><img src="img/laptop.gif" alt="" title="" border="0" /></a></div>
+                 <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>                        
+            </div>
+            <div class="bottom_prod_box"></div>             
+            <div class="prod_details_tab">
+            <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="img/cart.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="img/favs.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="img/favorites.gif" alt="" title="" border="0" class="left_bt" /></a>           
+            <a href="details.html" class="prod_details">details</a>            
+            </div>                     
+        </div>
+    
+    
+ 
+     	<div class="prod_box">
+        	<div class="top_prod_box"></div>
+            <div class="center_prod_box">            
+                 <div class="product_title"><a href="details.html">Iphone Apple</a></div>
+                 <div class="product_img"><a href="details.html"><img src="img/p4.gif" alt="" title="" border="0" /></a></div>
+                 <div class="prod_price"><span class="price">270$</span></div>                        
+            </div>
+            <div class="bottom_prod_box"></div>             
+            <div class="prod_details_tab">
+            <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="img/cart.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="img/favs.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="img/favorites.gif" alt="" title="" border="0" class="left_bt" /></a>           
+            <a href="details.html" class="prod_details">details</a>             
+            </div>                     
+        </div>
+ 
+     	<div class="prod_box">
+        	<div class="top_prod_box"></div>
+            <div class="center_prod_box">            
+                 <div class="product_title"><a href="details.html">Samsung Webcam</a></div>
+                 <div class="product_img"><a href="details.html"><img src="img/p5.gif" alt="" title="" border="0" /></a></div>
+                 <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>                        
+            </div>
+            <div class="bottom_prod_box"></div>             
+            <div class="prod_details_tab">
+            <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="img/cart.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="img/favs.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="img/favorites.gif" alt="" title="" border="0" class="left_bt" /></a>           
+            <a href="details.html" class="prod_details">details</a>            
+            </div>                     
+        </div> 
+ 
+     	<div class="prod_box">
+        	<div class="top_prod_box"></div>
+            <div class="center_prod_box">            
+                 <div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
+                 <div class="product_img"><a href="details.html"><img src="img/laptop.gif" alt="" title="" border="0" /></a></div>
+                 <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>                        
+            </div>
+            <div class="bottom_prod_box"></div>             
+            <div class="prod_details_tab">
+            <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="img/cart.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="img/favs.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="img/favorites.gif" alt="" title="" border="0" class="left_bt" /></a>           
+            <a href="details.html" class="prod_details">details</a>            
+            </div>                     
+        </div>
+    
+    
+ 
+     	<div class="prod_box">
+        	<div class="top_prod_box"></div>
+            <div class="center_prod_box">            
+                 <div class="product_title"><a href="details.html">Iphone Apple</a></div>
+                 <div class="product_img"><a href="details.html"><img src="img/p4.gif" alt="" title="" border="0" /></a></div>
+                 <div class="prod_price"><span class="price">270$</span></div>                        
+            </div>
+            <div class="bottom_prod_box"></div>             
+            <div class="prod_details_tab">
+            <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="img/cart.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="img/favs.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="img/favorites.gif" alt="" title="" border="0" class="left_bt" /></a>           
+            <a href="details.html" class="prod_details">details</a>             
+            </div>                     
+        </div>
+ 
+     	<div class="prod_box">
+        	<div class="top_prod_box"></div>
+            <div class="center_prod_box">            
+                 <div class="product_title"><a href="details.html">Samsung Webcam</a></div>
+                 <div class="product_img"><a href="details.html"><img src="img/p5.gif" alt="" title="" border="0" /></a></div>
+                 <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>                        
+            </div>
+            <div class="bottom_prod_box"></div>             
+            <div class="prod_details_tab">
+            <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="img/cart.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="img/favs.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="img/favorites.gif" alt="" title="" border="0" class="left_bt" /></a>           
+            <a href="details.html" class="prod_details">details</a>            
+            </div>                     
+        </div> 
+ 
+ 
+ 
+ <div class="center_title_bar">Recommended Products</div>
+ 
+ 
+      	<div class="prod_box">
+        	<div class="top_prod_box"></div>
+            <div class="center_prod_box">            
+                 <div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
+                 <div class="product_img"><a href="details.html"><img src="img/laptop.gif" alt="" title="" border="0" /></a></div>
+                 <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>                        
+            </div>
+            <div class="bottom_prod_box"></div>             
+            <div class="prod_details_tab">
+            <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="img/cart.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="img/favs.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="img/favorites.gif" alt="" title="" border="0" class="left_bt" /></a>           
+            <a href="details.html" class="prod_details">details</a>            
+            </div>                     
+        </div>
+    
+    
+ 
+     	<div class="prod_box">
+        	<div class="top_prod_box"></div>
+            <div class="center_prod_box">            
+                 <div class="product_title"><a href="details.html">Iphone Apple</a></div>
+                 <div class="product_img"><a href="details.html"><img src="img/p4.gif" alt="" title="" border="0" /></a></div>
+                 <div class="prod_price"><span class="price">270$</span></div>                        
+            </div>
+            <div class="bottom_prod_box"></div>             
+            <div class="prod_details_tab">
+            <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="img/cart.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="img/favs.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="img/favorites.gif" alt="" title="" border="0" class="left_bt" /></a>           
+            <a href="details.html" class="prod_details">details</a>             
+            </div>                     
+        </div>
+ 
+     	<div class="prod_box">
+        	<div class="top_prod_box"></div>
+            <div class="center_prod_box">            
+                 <div class="product_title"><a href="details.html">Samsung Webcam</a></div>
+                 <div class="product_img"><a href="details.html"><img src="img/p5.gif" alt="" title="" border="0" /></a></div>
+                 <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>                        
+            </div>
+            <div class="bottom_prod_box"></div>             
+            <div class="prod_details_tab">
+            <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="img/cart.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="img/favs.gif" alt="" title="" border="0" class="left_bt" /></a>
+            <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="img/favorites.gif" alt="" title="" border="0" class="left_bt" /></a>           
+            <a href="details.html" class="prod_details">details</a>            
+            </div>                     
+        </div> -->
+ 
+ 
+ 		<div id="tabbar">
+          <!-- Tabs -->
+<!--          <div id="tabsholder">
+            <ul class="tabs">
+              <li id="tab1">দেশী সংবাদপত্র</li>
+              <li id="tab2">প্রবাসী বাংলা সংবাদপত্র</li>
+              <li id="tab3">জনপ্রিয় বাংলা পোটাল</li>
+              <li id="tab4">অনলাইন বাংলা রেডিও</li>
+              <li id="tab5">গুরুত্বপূর্ণ লিঙ্ক</li>
+            </ul>
+            <div class="contents marginbot">
+              <div id="content1" class="tabscontent">
+                <ul id="quad">
+                  <li><a href="http://www.prothom-alo.com/">প্রথম-আলো </a></li>
+                  <li><a href="http://www.amardeshonline.com/">আমারদেশ</a></li>
+                  <li><a href="http://www.shokalerkhabor.com/online/index.php">সকালের খবর </a></li>
+                  <li><a href="http://www.kalerkantho.com/">কালের কন্ঠ</a></li>
+                  <li><a href="http://www.dailynayadiganta.com/">নয়া দিগন্ত</a></li>
+                  <li><a href="http://www.shaptahik.com/v2/">সাপ্তাহিক </a></li>
+                  <li><a href="http://www.sheershanews.com/"> শীর্ষ নিউজ </a></li>
+                  <li><a href="http://banglaconverter.com/Currency.php?country=Bangladeshi%20Taka%20%28BDT%29&cur=BDT#BDT=0"> কারেন্সি কনভাটার </a></li>
+                  <li><a href="http://www.samakal.com.bd/">সমকাল</a></li>
+                  <li><a href="http://www.ittefaq.com.bd/">ইক্তেফাক</a></li>
+                  <li><a href="http://jugantor.us/">যুগান্তর</a></li>
+                  <li><a href="http://www.dailyinqilab.com/"> ইনকিলাব</a></li>
+                  <li><a href="http://www.bangladesh-pratidin.com/">বাংলাদেশ প্রতিদিন</a></li>
+                  <li><a href="http://www.bdbreaking24.com/">বিডি ব্রেকিং ২৪ ডট কম</a></li>
+                  <li><a href="http://telecom.techzoom24.com/">টেকজুম ডট কম</a></li>
+                  <li><a href="http://www.dailyjanakantha.com/">জনকন্ঠ</a></li>
+                  <li><a href="http://www.jaijaidin.com/">যায়যায়দিন</a></li>
+                  <li><a href="http://www.amadershomoy.com/">আমাদের সময়</a></li>
+                  <li><a href="http://www.mzamin.com/">মানব জমিন </a></li>
+                  <li><a href="http://www.daily-sun.com/">ডেইলি সান </a></li>
+                  <li><a href="http://www.bdnews24.com/bangla/">বিডি নিউজ ২৪</a></li>
+                  <li><a href="http://www.dailysangram.com/">সংগ্রাম</a></li>
+                  <li><a href="http://www.bhorerkagoj.net/">ভোরের কাগজ</a></li>
+                  <li><a href="http://www.thedailystar.net/">ডেইলি স্টার</a></li>
+                  <li><a href="http://www.sangbad.com.bd/"> সংবাদ </a></li>
+                  <li><a href="http://www.bdnewseveryday.com/"> বিডি নিউজ এভরিডে</a></li>
+                  <li><a href="http://www.the-editor.net/">দি এডিটর </a></li>
+                </ul>
+              </div>
+              <div id="content2" class="tabscontent">
+                <ul id="quad">
+                  <li><a href="http://www.notundesh.com/">নতুন দেশ</a></li>
+                  <li><a href="http://www.khabor.com/">খবর</a></li>
+                  <li><a href="http://porshi.com/running_issue.php"><span class="text5"></span> পড়শী</a></li>
+                  <li><a href="http://community.skynetjp.com/">স্কাই নেট জ়ে পি </a></li>
+                  <li><a href="http://www.probashivoice.com/">প্রবাসী ভয়েস</a></li>
+                  <li><a href="http://www.washingtonbangla.com/">ওয়াশিংটন বাংলা</a></li>
+                  <li><a href="http://probashaprotidin.com/">প্রবাসে প্রতিদিন</a></li>
+                  <li><a href="http://www.ukbengali.com/">ইউ কে বেঙ্গলী</a></li>
+                  <li><a href="http://bangla71.net/">বাংলা ৭১</a></li>
+                  <li><a href="http://www.nationalnews.com.bd/">ন্যাশনাল নিউজ</a></li>
+                  <li><a href="http://www.banglapost.co.uk/">বাংলা পোষ্ট</a></li>
+                  <li><a href="http://www.italbangla.org/">ইতাল-বাংলা</a></li>
+                  <li><a href="http://www.thikana.net/">ঠিকানা</a></li>
+                  <li><a href="http://www.marupalash.net/">মরুপলাশ</a></li>
+                  <li><a href="http://www.banglaexpress.com.bd/">বাংলা এক্সপ্রেস</a></li>
+                  <li><a href="http://bumgk.com/">বিইউএমজিকে</a></li>
+                  <li><a href="http://www.deshcanada.com/">দেশ কানাডা</a></li>
+                  <li><a href="http://www.sydneybashi-bangla.com/">সিডনীবাসী-বাংলা</a></li>
+                  <li><a href="http://karnafuli.com/">কর্ণফুলী</a></li>
+                  <li><a href="http://www.thesonarbangla.com/">সোনার বাংলা</a></li>
+                  <li><a href="http://www.aunindo.com/">অনিন্দ্য</a></li>
+                  <li><a href="http://www.banglabarta.com.au/">বাংলা বার্তা</a></li>
+                </ul>
+              </div>
+              <div id="content3" class="tabscontent">
+                <ul id="quad">
+                  <li><a href="http://www.porobas.com/">পরবাস</a></li>
+                  <li><a href="http://bangladeshtigers.com/">বাংলাদেশ টাইগার </a></li>
+                  <li><a href="http://www.banglaeye.com/">বাংলা আই</a></li>
+                  <li><a href="http://www.deshbideshweb.com/">দেশ-বিদেশ</a></li>
+                  <li><a href="http://sonarbangladesh.com/">সোনার বাংলাদেশ </a></li>
+                  <li><a href="http://childrenvoice.com/">চিলড্রেন ভয়েস </a></li>
+                  <li><a href="http://community.skynetjp.com/">কম‌্যুনিটি </a></li>
+                  <li><a href="http://www.onlinebanglanewspaper.com/">অনলাইন বাংলা নিউসপেপার </a></li>
+                  <li><a href="http://www.rtnn.net/">আর টি এন এন</a></li>
+                  <li><a href="http://www.jeximnews24.com/">জেকজিম নিউজ</a></li>
+                  <li><a href="http://www.banglanews24.com.bd/">বাংলা নিউস ২৪ </a></li>
+                  <li><a href="http://www.bdnews24.com/bangla/"> বিডি নিউস ২৪ </a></li>
+                  <li><a href="http://www.quraanshareef.org/">বাংলা কুরআন শরিফ </a></li>
+                  <li><a href="http://www.techtunes.com.bd/">টেকটিউনস</a></li>
+                  <li><a href="http://www.pipilika.com/">পিপীলিকা</a></li>
+                  <li><a href="http://www.ourbangla.com/">আওয়ার বাংলা</a></li>
+                  <li><a href="http://www.bangla2000.com/">বাংলা ২০০০</a></li>
+                  <li><a href="http://www.banglarshopno.com/">বাংলার সপ্ন</a></li>
+                  <li><a href="http://japanbangladesh.com/">অভিবাস </a></li>
+                </ul>
+              </div>
+              <div id="content4" class="tabscontent">
+                <ul id="quad">
+                  <li><a href="http://www.bbc.co.uk/bengali/">বিবিসি</a></li>
+                  <li><a href="http://www.voanews.com/bangla/">ভয়েস অফ আমেরিকা</a></li>
+                  <li><a href="http://www.nhk.or.jp/nhkworld/bengali/">এন এইচ কে জাপান</a></li>
+                  <li><a href="http://www2.dw-world.de/bengali/">জার্মান রেডিও</a></li>
+                  <li><a href="http://bengali.cri.cn/">চীন বেতার</a></li>
+                  <li><a href="http://bangla.irib.ir/">রেডিও তেহরান</a></li>
+                  <li><a href="http://www.radiodhaka.net/">রেডিও ঢাকা</a></li>
+                  <li><a href="http://www.radionet24.com/">রেডিওনেট ২৪</a></li>
+                  <li><a href="http://www.radioaamar.com/">রেডিও আমার</a></li>
+                  <li><a href="http://www.radiogoongoon.com/">রেডিও গুনগুন</a></li>
+                  <li><a href="http://www.radio2fun.com/">রেডিও তুফান</a></li>
+                  <li><a href="http://www.lemon24.com/">রেডিও লেমন</a></li>
+                  <li><a href="http://www.onubhuti.com/radio/">রেডিও অনুভূতি</a></li>
+                </ul>
+              </div>
+              <div id="content5" class="tabscontent">
+                <ul id="quad">
+                  <li><a href="http://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6">উইকিপিডিয়া</a></li>
+                  <li><a href="http://www.forms.gov.bd/">সরকারী ফর্মসমূহ </a></li>
+                  <li><a href="http://ethikana.com/resources/useful_links.htm#02">গুরুত্বর্পূন ওয়েবসাইট </a></li>
+                  <li><a href="http://www.bccij.com/">বি সি সি আই জে </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>-->
+          <!-- /Tabs -->         
+        
+        </div><!--End of tabbar-->
+ 
+ 
+    
+   	<div class="midbanner">
+    	<img src="res/images/midbanner/midbanner1.jpg" width="530" height="100"/> 
+    </div>
+    <div class="midbanner">
+    	<img src="res/images/midbanner/midbanner12.jpg" width="530" height="100"/> 
+    </div>   	
+    <div class="midbanner">
+    	<img src="res/images/midbanner/midbanner13.jpg" width="530" height="100"/> 
+    </div>      
+    <div class="midbanner">
+    	<img src="res/images/midbanner/midbanner2.jpg" width="530" height="100"/> 
+    </div>
+     	
+    <div class="midbanner">
+    	<img src="res/images/midbanner/midbanner3.jpg" width="530" height="100"/> 
+    </div>
+       	<div class="midbanner">
+    	<img src="res/images/midbanner/midbanner4.jpg" width="530" height="100"/> 
+    </div>
+       	<div class="midbanner">
+    	<img src="res/images/midbanner/midbanner5.jpg" width="530" height="100"/> 
+    </div>
+       	<div class="midbanner">
+    	<img src="res/images/midbanner/midbanner6.jpg" width="530" height="100"/> 
+    </div>
+   	<div class="midbanner">
+    	<img src="res/images/midbanner/midbanner7.jpg" width="530" height="100"/> 
+    </div>
+   	<div class="midbanner">
+    	<img src="res/images/midbanner/midbanner8.jpg" width="530" height="100"/> 
+    </div>  
+    
+   
+   </div><!-- end of center content -->
+   
+   <div class="right_content" id="right_content">
+<!--    		<div class="shopping_cart">
+        	<div class="cart_title">Shopping cart</div>
+            
+            <div class="cart_details">
+            3 items <br />
+            <span class="border_cart"></span>
+            Total: <span class="price">350$</span>
+            </div>
+            
+            <div class="cart_icon"><a href="#" title="header=[Checkout] body=[&nbsp;] fade=[on]"><img src="img/shoppingcart.png" alt="" title="" width="48" height="48" border="0" /></a></div>
+        
+        </div>
+   
+   
+     <div class="title_box">What’s new</div>  
+     <div class="border_box">
+         <div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
+         <div class="product_img"><a href="details.html"><img src="img/p2.gif" alt="" title="" border="0" /></a></div>
+         <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>
+     </div>  
+     
+     
+    
+    <div class="title_box">Manufacturers</div>
+    
+        <ul class="left_menu">
+        <li class="odd"><a href="services.html">Sony</a></li>
+        <li class="even"><a href="services.html">Samsung</a></li>
+         <li class="odd"><a href="services.html">Daewoo</a></li>
+        <li class="even"><a href="services.html">LG</a></li>
+         <li class="odd"><a href="services.html">Fujitsu Siemens</a></li>
+         <li class="even"><a href="services.html">Motorola</a></li>
+        <li class="odd"><a href="services.html">Phillips</a></li>
+        <li class="even"><a href="services.html">Beko</a></li>
+        </ul> -->   
+        
+    <!--<div class="submenu">-->        
+	<div class="title_box">দৈনিক পত্রিকা</div>
+
+		<ul id="menu" class="rightmenu">
+        <li><a href="http://www.prothom-alo.com"> <img src="res/images/news/prothom-alo.jpg" /></a></li>
+        <li><a href="http://www.ittefaq.com.bd"><img src="res/images/news/ittefaq.jpg" /></a></li>
+        <li><a href="http://www.kalerkantho.com"><img src="res/images/news/kalerkantho.jpg" /></a></li>
+        <li><a href="http://www.dailyjanakantha.com"><img src="res/images/news/janakantha.jpg" /></a></li>
+        <li><a href="http://www.jugantor.com"><img src="res/images/news/jugantor.jpg" /></a></li>
+        <li><a href="http://www.samakal.com.bd"><img src="res/images/news/somokal.jpg" /></a></li>
+        <li><a href="http://www.bd-pratidin.com"><img src="res/images/news/bangladesh-protidin.jpg" /></a></li>
+        <li><a href="http://www.amadershomoy.com"><img src="res/images/news/amadersomoy.jpg" /></a></li>
+        <li><a href="http://www.amardeshonline.com"><img src="res/images/news/amar-desh.jpg" /></a></li>
+        <li><a href="#"><img src="res/images/more.jpg" /></a>
+            <ul>
+                <li> <a href="http://www.dailynayadiganta.com"><img src="res/images/news/dailynayadiganta.jpg" /></a></li>
+                <li> <a href="http://www.jjdin.com"><img src="res/images/news/jjdin.jpg" /></a></li>
+                <li> <a href="http://www.dailyinqilab.com"><img src="res/images/news/dailyinqilab.jpg" /></a></li>
+                <li> <a href="http://www.mzamin.com"><img src="res/images/news/mzamin.jpg" /></a></li>
+                <li> <a href="http://www.dailysangram.com"><img src="res/images/news/dailysangram.jpg" /></a></li>
+                <li> <a href="http://www.bhorerkagoj.net"><img src="res/images/news/bhorerkagoj.jpg" /></a></li>
+                <li> <a href="http://www.sangbad.com.bd"><img src="res/images/news/sangbad.jpg" /></a></li>
+                <li> <a href="http://www.shokalerkhabor.com"><img src="res/images/news/shokalerkhabor.jpg" /></a></li>
+                <li> <a href="http://www.gonokantho.com"><img src="res/images/news/gonokantho.jpg" /></a></li>
+                <li> <a href="http://www.bonikbarta.com"><img src="res/images/news/bonikbarta.jpg" /></a></li>
+                <li> <a href="http://www.amaderorthoneeti.com"><img src="res/images/news/amaderorthoneeti.jpg" /></a></li>
+                <li> <a href="http://www.bhorerdakbd.net"><img src="res/images/news/bhorerdakbd.jpg" /></a></li>
+                <li> <a href="http://www.dailydinkal.net"><img src="res/images/news/dailydinkal.jpg" /></a></li>
+                <li> <a href="http://www.dainikdestiny.com"><img src="res/images/news/dainikdestiny.jpg" /></a></li>
+                <li> <a href="http://www.manobkantha.com"><img src="res/images/news/manobkantha.jpg" /></a></li>
+                <!--<li> <a href="http://www.deenersheshey.com"><img src="res/images/news/deenersheshey.jpg" /></a></li>-->
+                <li> <a href="http://www.djanata.com"><img src="res/images/news/djanata.jpg" /></a></li>
+                <li> <a href="http://www.dainikazadi.org"><img src="res/images/news/dainikazadi.jpg" /></a></li>
+                <li> <a href="http://www.al-ihsan.net"><img src="res/images/news/al-ihsan.jpg" /></a></li>
+                <li> <a href="http://www.dailyshomoy.com"><img src="res/images/news/dailyshomoy.jpg" /></a></li>
+                <!--<li> <a href="http://www.dailydeshbangla.com"><img src="res/images/news/dailydeshbangla.jpg" /></a></li>-->
+                <li> <a href="http://www.khabarpatrabd.com"><img src="res/images/news/khabarpatrabd.jpg" /></a></li>
+              </ul>
+        </li>
+        </ul>
+        <!--</div>-->
+    <div class="title_box">সাপ্তাহিক ও মাসিক পত্রিকা</div>
+            
+        <ul id="menu" class="rightmenu"> 
+        <li><a href="http://www.shaptahik.com"><img src="res/images/news/shaptahik.jpg" /></a></li>
+        <li><a href="http://www.comjagat.com"><img src="res/images/news/comjagat.jpg" /></a></li> 
+        <li><a href="#"><img src="res/images/more.jpg" /></a>
+            <ul>
+                <li> <a href="http://www.parichoy.com"><img src="res/images/news/parichoy.jpg" /></a></li>
+                <li> <a href="http://www.weeklyajkal.com"><img src="res/images/news/weeklyajkal.jpg" /></a></li>
+                <li> <a href="http://www.sheershakagoj.com"><img src="res/images/news/sheershakagoj.jpg" /></a></li>
+                <li><a href="http://www.bartamansanglap.com"><img src="res/images/news/bartamansanglap.jpg" /></a></li>
+		        <li><a href="http://www.karnafuli.com"><img src="res/images/news/karnafuli.jpg" /></a></li>
+                <li><a href="http://www.shaptahik2000.com"><img src="res/images/news/shaptahik2000.jpg" /></a></li>
+		        <li><a href="http://thebengalitimes.com"><img src="res/images/news/thebengalitimes.jpg" /></a></li>
+                <li><a href="http://www.kaliokalam.com"><img src="res/images/news/kaliokalam.jpg" /></a></li>
+		        <li><a href="http://www.at-tahreek.com"><img src="res/images/news/at-tahreek.jpg" /></a></li>
+        		<li><a href="http://www.alkawsar.com"><img src="res/images/news/alkawsar.jpg" /></a></li>
+            </ul>
+        </li>
+        </ul>  
+
+    <div class="title_box">বাংলা ব্লগ</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li> <a href=" http://www.somewhereinblog.net"><img src="res/images/blog/somewhereinblog.jpg" /></a></li>
+        <li> <a href="http://www.techtunes.com.bd"><img src="res/images/blog/techtunes.jpg" /></a></li>      
+        <li><a href="http://www.bdrong.com"><img src="res/images/blog/bdrong.jpg" /></a></li>
+        <li><a href="http://www.prothom-aloblog.com"><img src="res/images/blog/prothom-aloblog.jpg" /></a></li>
+        <li><a href=" http://www.sachalayatan.com"><img src="res/images/blog/sachalayatan.jpg" /></a></li>
+        <li><a href="#"><img src="res/images/more.jpg" /></a>
+            <ul>
+                <li><a href="http://www.amarblog.com"><img src="res/images/blog/amarblog.jpg" /></a></li>
+                <li><a href="http://www.pchelplinebd.com"><img src="res/images/blog/pchelplinebd.jpg" /></a></li>
+            </ul>
+        </li>
+        </ul>
+<!-- Unused Links
+    <div class="title_box">National News Agency</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li><a href="http://www.bdnews24.com/bangla">bdnews24.com</a></li>
+        
+        <li><a href="http://www.banglanews24.com">Bangla News 24</a></li>
+        <li><a href="http://www.poriborton.com">Poriborton</a></li>
+        <li><a href="http://www.sheershanews.com">Sheersha News</a></li>
+        <li><a href="http://www.rtnn.net">RTNN</a></li>
+
+        <li><a href="#">More...</a>
+            <ul>
+                <li> <a href="http://www.bssnews.net/bangla">BSS</a></li>
+                <li> <a href="http://www.the-editor.net">The Editor</a></li>
+                <li> <a href="http://www.dnewsbd.com">dnewsbd.com</a></li>
+                <li> <a href="http://www.sangbad24.net">Sangbad 24</a></li>
+                <li> <a href="http://bangla.bdnews.com">BD News</a></li>
+                <li> <a href="http://www.fairnews24.com">Fair News 24</a></li>
+                <li> <a href="http://www.natunbarta.com">Natun Barta</a></li>
+                <li> <a href="http://www.bartabangla.com">Barta Bangla</a></li>
+                <li> <a href="http://www.inbworld.net">INB</a></li>
+                <li> <a href="http://www.banglatimes24.com">Bangla Times 24</a></li>
+                <li> <a href="http://www.justnewsbd.com">Just News BD</a></li>
+                <li> <a href="http://www.redtimesbd.com">Red Times BD</a></li>
+                <li> <a href="http://www.newsbnn.com">News Bnn</a></li>
+                <li> <a href="http://www.newsnetbd.com">News Net</a></li>
+                <li> <a href="http://www.bdnationalnews.com">BD National News</a></li>
+                <li> <a href="http://www.bdtodaynews.com">BD Today News</a></li>
+                <li> <a href="http://www.unitednews24.com">United News 24</a></li>
+                <li> <a href="http://www.dhakanews24.com">Dhaka News 24</a></li>
+                <li> <a href="http://www.bdtoday24.com">BD Today 24</a></li>
+                <li> <a href="http://www.digitalshomoy.com.bd">Digital Shomoy</a></li>
+                <li> <a href="http://www.cdnews24.com">CD News 24</a></li>
+                <li> <a href="http://www.hawker.com.bd/index.php?vallan=ban">Hawker</a></li>
+                <li> <a href="http://www.amaderprotidin.com">Amader Protidin</a></li>
+                <li> <a href="http://www.3rdeyeinfo.net">3rd Eye</a></li>
+                <li> <a href="http://www.banglaexpress.com.bd">Bangla Express</a></li>
+                <li> <a href="http://www.bibekbarta.info">Bibek Barta</a></li>
+                <li> <a href="http://www.songbadprotidin.com">Songbad Protidin</a></li>
+                <li> <a href="http://www.livepress24.com">Live Press 24</a></li>
+                <li> <a href="http://www.gorai24.com">Gorai 24</a></li>
+                <li> <a href="http://www.valokhabor.com">Valo Khabor</a></li>
+                <li> <a href="http://www.dhakatimes24.com">Dhakatimes24</a></li>
+                <li> <a href="http://www.gpnews24.com">GPNews24.com</a></li>
+                <li> <a href="http://www.banglamail24.com">Bangla Mail 24</a></li>
+                <li> <a href="http://www.1newsbd.com">1 News BD</a></li>
+                <li> <a href="http://www.fastnewsbd.com">Fast News BD</a></li>
+                <li> <a href="http://www.jamunanews24.com">Jamuna News 24</a></li>
+                <li> <a href="http://www.notunkhobor.com">Notun Khobor</a></li>
+                <li> <a href="http://www.primekhobor.com">Prime Khobor</a></li>
+                <li> <a href="http://www.primenewsbd.com">Prime News BD</a></li>
+                <li> <a href="http://www.ictnews24.com">ICT News</a></li>
+                <li> <a href="http://www.techzoom24.com">Tech Zoom 24</a></li>
+                <li> <a href="http://www.ehealth24.net">E Health 24</a></li>
+                <li> <a href="http://www.education24.com.bd">Education 24</a></li>
+            </ul>
+        </li>
+        </ul>
+
+    <div class="title_box">Regional Newspapers</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li><a href="http://www.purbanchal.com">karatoa</a></li>
+        <li><a href="http://www.karatoa.com.bd">VOA News</a></li>
+        <li><a href="http://www.suprobhatbangladesh.com">Suprobhat Bangladesh</a></li>
+        <li><a href="http://www.shahnamabd.com">Daily Shanama</a></li>
+        <li><a href="http://www.noakhaliweb.com.bd">Noakhali Web</a></li>
+        <li><a href="#">More...</a>
+            <ul>
+                <li> <a href="http://www.chalomannoakhali.com">Choloman Nokhali</a></li>
+                <li> <a href="http://www.barisalnews.com">Barisal News</a></li>
+                <li> <a href="http://www.khulnanews.com">Khulna News</a></li>
+                <li> <a href="http://www.amaderbarisal.com">AAmader Barisal</a></li>
+                <li> <a href="http://www.patradoot.net">Patradoot</a></li>
+
+            </ul>
+        </li>
+        </ul>
+        
+    <div class="title_box">E-Paper</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li><a href="http://www.dailykalerkantho.com/epaper">E kaler kantho</a></li>
+        <li><a href="http://www.eprothomalo.com">E Prothom-alo</a></li>
+        <li><a href="http://www.esamakal.net">E Samakal</a></li>
+        <li><a href="http://www.ejanakantha.com">E Janakontho</a></li>
+        <li><a href="http://www.ebonikbarta.com">E Bonik Barta</a></li>
+            <ul>
+                
+            </ul>
+        </li>
+        </ul>
+
+        
+    <div class="title_box">Bangladesh Share Bazar News</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li><a href="http://www.dsebd.org">DSE</a></li>
+        <li><a href="http://www.cse.com.bd">CSE</a></li>
+        <li><a href="http://www.dailysharebiz.com">Share Biz korcha</a></li>
+        <li><a href="http://www.sharenews24.com">Share News 24</a></li>
+        <li><a href="http://www.stockbangladesh.com">Stock Bangladesh</a></li>
+            <ul>
+                
+            </ul>
+        </li>
+        </ul>
+
+    <div class="title_box">Radio</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li><a href="http://www.radiofoorti.fm">Radio Furti</a></li>
+        <li><a href="http://abcradiobd.fm">ABC Radio</a></li>
+        <li><a href="http://www.radiotodaybd.fm">Radio Today</a></li>
+        <li><a href="http://radiogoongoon.com">Radio GoonGoon</a></li>
+        <li><a href=" http://www.radiocirclebd.com">Radio Circle</a></li>
+        <li><a href="#">More...</a>
+            <ul>
+                <li> <a href=" http://www.radiodesh.com">RadioDesh</a></li>
+                <li> <a href="http://www.hellodhaka.net">HelloDhaka</a></li>
+                <li> <a href="http://www.radio-hitz.com/Bangla/dhaka-fm.htm">Dhaka FM</a></li>
+                <li> <a href="http://tunein.com/radio/Bangladesh-r100301">Bangladesh Radio Station</a></li>
+                <li> <a href="http://tunein.com/radio/Radio-Aamar-884-s136381">Radio Amar</a></li>
+                <li> <a href="http://tunein.com/radio/RADIO-SHADHIN-924FM-s192648">Radio Shadhin</a></li>
+            </ul>
+        </li>
+        </ul>
+
+    <div class="title_box">Bangla Movie</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li><a href="http://en.wikipedia.org/wiki/List_of_Bangladeshi_films">Bangladeshi films</a></li>
+        <li><a href="http://moviemaat.com">Moviemaat</a></li>
+        <li><a href="http://www.banglamovies.co.uk">Bangla Movies</a></li>
+        <li><a href="http://www.bdtorrents.com/forums/f52/dhallywood-movie-list-2012-2013-upcoming-news-3172.html">Bangla Dhallywood Movie</a></li>
+        <li><a href="http://mubi.com/lists/indian-bengali-cinema">Mubi.com</a></li>
+        <li><a href="#">More...</a>
+            <ul>
+                <li> <a href="http://amaderbangladesh.com/a/all-bangla-movie-list">Amaderbangladesh.com</a></li>
+                <li> <a href="http://indianbanglamovies.blogspot.com">Indianbanglamovies</a></li>
+                <li> <a href="http://downloadkolkata.blogspot.com/2012/03/bengali-movie-list-z.html">Bengali Movie</a></li>
+                <li> <a href="http://amarcalcutta.com">Amarcalcutta</a></li>
+                <li> <a href="http://bdvubon.com">bdvubon.com</a></li>
+            </ul>
+        </li>
+        </ul>
+
+    <div class="title_box">Bangla Music</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li><a href="http://www.music.com.bd/">Music.com.bd</a></li>
+        <li><a href="http://www.banglamusictrack.com">Banglamusictrack</a></li>
+        <li><a href="http://songs.doridro.com">Doridro Music</a></li>
+        <li><a href="http://music.bangaliaana.com">Bangaliaana</a></li>
+        <li><a href="http://www.mybanglamp3.info/list/S.php">My Bangla Mp3</a></li>
+        <li><a href="#">More...</a>
+            <ul>
+                <li> <a href="http://musicbangla-bd.blogspot.com">Music Bangla</a></li>
+                <li> <a href="http://www.calcuttaweb.com/gaan/music">CalcuttaWeb</a></li>
+                <li> <a href="http://www.pranerbangla.com">Pranerbangla</a></li>
+                <li> <a href="http://www.sangeet-bhuvan.com">Sangeet-bhuvan</a></li>
+                <li> <a href="http://ww.smashits.com/bengali/music-20-movies-a.html">Smashits Bengali Section</a></li>
+                <li> <a href="http://www.in.com/music/album-listing/bengali-1915.html#block2">In.com</a></li>
+                <li> <a href="http://musictime99.blogspot.com">Musictime99</a></li>
+                <li> <a href="http://www.raaga.com/channels/bengali">Ragga</a></li>
+                <li> <a href="http://musicjagat.com">Musicjagat</a></li>
+                <li> <a href="http://worldmusicmedia.blogspot.com">World Music Media</a></li>
+                <li> <a href="http://www.ferdous.org/mlinks.htm">Ferdous</a></li>
+            </ul>
+        </li>
+        </ul>
+ 
+    <div class="title_box">Fashion House</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li><a href="http://www.catseye.com.bd">Cats Eye</a></li>
+        <li><a href="http://deshidosh.net">Deshi Dosh</a></li>
+        <li><a href="http://www.meahbibi.com">Meahbibi</a></li>
+        <li><a href="http://bangladeshfashion.com">Dress Delight</a></li>
+        <li><a href="http://prabartana.com">Prabartana</a></li>
+        <li><a href="#">More...</a>
+            <ul>
+                <li> <a href="http://kaykraft.com">Kay Kraft</a></li>
+                <li> <a href="http://www.anjans.com">Anjans</a></li>
+                <li> <a href="http://rang-bd.com">Rang</a></li>
+                <li> <a href="http://www.banglarmela.org/index2.php">Banglar Mela</a></li>
+                <li> <a href="http://sadakalo.net">Sada Kalo</a></li>
+                <li> <a href="http://www.deshal.com.bd">Deshal</a></li>
+                <li> <a href="http://www.arnimfashion.com">Arnim Fashion</a></li>
+                <li> <a href="http://bd.zariffashion.com">Zarif Fashion & Craft</a></li>
+                <li> <a href="http://www.dressydale.com">Dressy Dale</a></li>
+                <li> <a href="http://www.surjomukhi.net">Surjomukhi</a></li>
+                <li> <a href="http://www.banglarfashion.com">Banglar Fashion</a></li>
+                <li> <a href="http://www.westecs.net">Westecs</a></li>
+                <li> <a href="http://www.ecstasybd.com">Ecstasy</a></li>
+                <li> <a href="http://www.banglarfashion.com">Lubnan</a></li>
+                <li> <a href="http://www.banglarfashion.com/BrandAllProduct.aspx?param=BHg%2FZIuTobUGga7ORl6PoQ%3D%3D">Aarong</a></li>
+                <li> <a href="http://www.yellowretailconcepts.com/flash/default.php">Yellow</a></li>
+            </ul>
+        </li>
+        </ul>
+
+   <div class="title_box">Kutir Silpo</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li><a href="http://www.aarong.com">Aarong</a></li>
+        <li><a href="http://www.alibaba.com/member/bd1010037186.html">Alibaba</a></li>
+        <li><a href="http://www.textiletoday.com.bd/demo/magazine/438">Textile TodayNews</a></li>
+        <li><a href="http://sylhetdirectory.com/shopping/arts-crafts/lucky-kutir-shilpo">Lucky Kutir Shilpo</a></li>
+        <li><a href="http://www.deshikutir.com">Deshi Kutir</a></li>
+        <li><a href="#">More...</a>
+            <ul>
+                <li> <a href="https://plus.google.com/106583577208617766581/posts">Hasina Kutir Shilpo</a></li>
+            </ul>
+        </li>
+        </ul>
+
+    <div class="title_box">Bangla Natok</div>
+            
+        <ul id="menu" class="rightmenu">
+        <li><a href="http://bd-natok.com">Bd-Natok</a></li>
+        <li><a href="http://natokserials.com">Bd-Dramaserials</a></li>
+        <li><a href="http://natoksfrombd.com">Natoks From Bd</a></li>
+        <li><a href="http://amaderbangladesh.com/b/bangla-comedy-natok-list-by-humayun-ahmed/?start=20">Amader Bangladesh</a></li>
+        <li><a href="http://www.banglanatokdownload.com/natok.php">Bangladeshi Natok</a></li>
+        <li><a href="#">More...</a>
+            <ul>
+                <li> <a href="http://shonarbangladesh.com">Shonar Bangladesh</a></li>
+                <li> <a href="http://bd-serials.com">Bangladeshi Drama Serials</a></li>
+                <li> <a href="http://www.livenatok.com">Live Natok</a></li>
+                <li> <a href="http://www.amarnatok.com">Amar Natok</a></li>
+            </ul>
+        </li>
+        </ul>-->
+
+    <div class="banner_adds"><a href="#"><img src="res/images/E-Paper.png" /></a></div>  
+    <div class="banner_adds"><a href="#"><img src="res/images/Share_Bazar.png" /></a></div>  
+    <div class="banner_adds"><a href="#"><img src="res/images/Bangla-Natok.png" /></a></div>  
+    <div class="banner_adds"><a href="#"><img src="res/images/Bangla-Movie.png" /></a></div>  
+    <div class="banner_adds"><a href="#"><img src="res/images/Fashion-House.png" /></a></div>  
+    <div class="banner_adds"><a href="#"><img src="res/images/Music.png" /></a></div>  
+    <div class="banner_adds"><a href="#"><img src="res/images/Radio.png" /></a></div>  
+   </div><!-- end of right content -->               
+   </div><!-- end of main content -->
+   
+   <div class="footer">
+         <div class="left_footer">
+        <img src="img/footer_logo.png" alt="" title="" width="242" height="49"/>
+        </div>
+        
+        <div class="center_footer">
+        Smartmux.com. All Rights Reserved 2013<br />
+        <a href="http://csscreme.com/freecsstemplates/" title="free templates"><img src="img/csscreme.jpg" alt="free templates" title="free templates" border="0" /></a><br />
+        <!--<img src="img/payment.gif" alt="" title="" />-->
+        </div>
+        
+        <div class="right_footer">
+        <a href="index.html">home</a>
+        <a href="details.html">about</a>
+        <a href="details.html">sitemap</a>
+        <a href="details.html">rss</a>
+        <a href="contact.html">contact us</a>
+        </div>      
+   </div><!-- End of footer -->                 
+
+
+</div>
+<!-- end of main_container -->
+</body>
+</html>
